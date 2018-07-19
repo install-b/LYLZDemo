@@ -1,0 +1,1812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FA3ECA2717D94588E4CC2DA /* libPods-LYLZDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F655AD2F142A972E2E2854B1 /* libPods-LYLZDemo.a */; };
+		C71FE3341FB046BD00826FA4 /* ClippedExpression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C71FE3301FB046BD00826FA4 /* ClippedExpression.bundle */; };
+		C71FE3371FB046BD00826FA4 /* LYTchatViewIcon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C71FE3331FB046BD00826FA4 /* LYTchatViewIcon.bundle */; };
+		C71FE33A1FB04E8500826FA4 /* LYFileSelector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C71FE3391FB04E8500826FA4 /* LYFileSelector.bundle */; };
+		C71FE33C1FB04E8C00826FA4 /* LYTChatProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C71FE33B1FB04E8C00826FA4 /* LYTChatProgressHUD.bundle */; };
+		C7DD24A21FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23CF1FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.m */; };
+		C7DD24A31FB0417D002DBDB7 /* HPWYSProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23D11FB0417D002DBDB7 /* HPWYSProgressAnimatedView.m */; };
+		C7DD24A41FB0417D002DBDB7 /* HPWYSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23D31FB0417D002DBDB7 /* HPWYSProgressHUD.m */; };
+		C7DD24A51FB0417D002DBDB7 /* HPWYSRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23D51FB0417D002DBDB7 /* HPWYSRadialGradientLayer.m */; };
+		C7DD24A61FB0417D002DBDB7 /* HPWYSCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23D81FB0417D002DBDB7 /* HPWYSCompositeConstraint.m */; };
+		C7DD24A71FB0417D002DBDB7 /* HPWYSConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23DB1FB0417D002DBDB7 /* HPWYSConstraint.m */; };
+		C7DD24A81FB0417D002DBDB7 /* HPWYSConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23DD1FB0417D002DBDB7 /* HPWYSConstraintMaker.m */; };
+		C7DD24A91FB0417D002DBDB7 /* HPWYSLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23DF1FB0417D002DBDB7 /* HPWYSLayoutConstraint.m */; };
+		C7DD24AA1FB0417D002DBDB7 /* HPWYSViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23E31FB0417D002DBDB7 /* HPWYSViewAttribute.m */; };
+		C7DD24AB1FB0417D002DBDB7 /* HPWYSViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23E51FB0417D002DBDB7 /* HPWYSViewConstraint.m */; };
+		C7DD24AC1FB0417D002DBDB7 /* NSArray+HPWYSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23E71FB0417D002DBDB7 /* NSArray+HPWYSAdditions.m */; };
+		C7DD24AD1FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23EA1FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.m */; };
+		C7DD24AE1FB0417D002DBDB7 /* View+HPWYSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23EC1FB0417D002DBDB7 /* View+HPWYSAdditions.m */; };
+		C7DD24AF1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23EE1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.m */; };
+		C7DD24B01FB0417D002DBDB7 /* HPWYSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23F11FB0417D002DBDB7 /* HPWYSImageCache.m */; };
+		C7DD24B11FB0417D002DBDB7 /* HPWYSWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23F31FB0417D002DBDB7 /* HPWYSWebImageCompat.m */; };
+		C7DD24B21FB0417D002DBDB7 /* HPWYSWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23F51FB0417D002DBDB7 /* HPWYSWebImageDecoder.m */; };
+		C7DD24B31FB0417D002DBDB7 /* HPWYSWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23F71FB0417D002DBDB7 /* HPWYSWebImageDownloader.m */; };
+		C7DD24B41FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23F91FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.m */; };
+		C7DD24B51FB0417D002DBDB7 /* HPWYSWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23FB1FB0417D002DBDB7 /* HPWYSWebImageManager.m */; };
+		C7DD24B61FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD23FE1FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.m */; };
+		C7DD24B71FB0417D002DBDB7 /* NSData+HPWYSImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24001FB0417D002DBDB7 /* NSData+HPWYSImageContentType.m */; };
+		C7DD24B81FB0417D002DBDB7 /* UIButton+HPWYSWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24021FB0417D002DBDB7 /* UIButton+HPWYSWebCache.m */; };
+		C7DD24B91FB0417D002DBDB7 /* UIImage+HPWYSGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24041FB0417D002DBDB7 /* UIImage+HPWYSGIF.m */; };
+		C7DD24BA1FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24061FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.m */; };
+		C7DD24BB1FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24081FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.m */; };
+		C7DD24BC1FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD240A1FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.m */; };
+		C7DD24BD1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD240C1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.m */; };
+		C7DD24BE1FB0417D002DBDB7 /* LYAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD240F1FB0417D002DBDB7 /* LYAsset.m */; };
+		C7DD24BF1FB0417D002DBDB7 /* LYAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24111FB0417D002DBDB7 /* LYAssetCell.m */; };
+		C7DD24C01FB0417D002DBDB7 /* LYAssetGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24131FB0417D002DBDB7 /* LYAssetGridCell.m */; };
+		C7DD24C11FB0417D002DBDB7 /* LYAssetGridToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24151FB0417D002DBDB7 /* LYAssetGridToolBar.m */; };
+		C7DD24C21FB0417D002DBDB7 /* LYAssetGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24171FB0417D002DBDB7 /* LYAssetGridViewController.m */; };
+		C7DD24C31FB0417D002DBDB7 /* LYAssetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24191FB0417D002DBDB7 /* LYAssetViewController.m */; };
+		C7DD24C41FB0417D002DBDB7 /* LYPhotoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD241B1FB0417D002DBDB7 /* LYPhotoBrowseCell.m */; };
+		C7DD24C51FB0417D002DBDB7 /* LYPhotoBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD241D1FB0417D002DBDB7 /* LYPhotoBrowseView.m */; };
+		C7DD24C61FB0417D002DBDB7 /* LYTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD241F1FB0417D002DBDB7 /* LYTProgressView.m */; };
+		C7DD24C71FB0417D002DBDB7 /* UIImageView+AssetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24211FB0417D002DBDB7 /* UIImageView+AssetImage.m */; };
+		C7DD24C81FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24251FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.m */; };
+		C7DD24C91FB0417D002DBDB7 /* LYCOMRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24271FB0417D002DBDB7 /* LYCOMRefreshBackFooter.m */; };
+		C7DD24CA1FB0417D002DBDB7 /* LYCOMRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24291FB0417D002DBDB7 /* LYCOMRefreshComponent.m */; };
+		C7DD24CB1FB0417D002DBDB7 /* LYCOMRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD242B1FB0417D002DBDB7 /* LYCOMRefreshFooter.m */; };
+		C7DD24CC1FB0417D002DBDB7 /* LYCOMRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD242D1FB0417D002DBDB7 /* LYCOMRefreshHeader.m */; };
+		C7DD24CD1FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24321FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.m */; };
+		C7DD24CE1FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24341FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.m */; };
+		C7DD24CF1FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24361FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.m */; };
+		C7DD24D01FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24391FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.m */; };
+		C7DD24D11FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD243B1FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.m */; };
+		C7DD24D21FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD243D1FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.m */; };
+		C7DD24D31FB0417D002DBDB7 /* LYCOMRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24401FB0417D002DBDB7 /* LYCOMRefreshGifHeader.m */; };
+		C7DD24D41FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24421FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.m */; };
+		C7DD24D51FB0417D002DBDB7 /* LYCOMRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24441FB0417D002DBDB7 /* LYCOMRefreshStateHeader.m */; };
+		C7DD24D61FB0417D002DBDB7 /* LYCOMRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24471FB0417D002DBDB7 /* LYCOMRefreshConst.m */; };
+		C7DD24D71FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24491FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.m */; };
+		C7DD24D81FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD244B1FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.m */; };
+		C7DD24D91FB0417D002DBDB7 /* UIView+LYCOMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD244D1FB0417D002DBDB7 /* UIView+LYCOMExtension.m */; };
+		C7DD24DA1FB0417D002DBDB7 /* NSFileManager+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24511FB0417D002DBDB7 /* NSFileManager+Tool.m */; };
+		C7DD24DB1FB0417D002DBDB7 /* NSString+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24531FB0417D002DBDB7 /* NSString+Time.m */; };
+		C7DD24DC1FB0417D002DBDB7 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24551FB0417D002DBDB7 /* UIImage+Bundle.m */; };
+		C7DD24DD1FB0417D002DBDB7 /* LYFileObjModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24581FB0417D002DBDB7 /* LYFileObjModel.m */; };
+		C7DD24DE1FB0417D002DBDB7 /* LYFileManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD245B1FB0417D002DBDB7 /* LYFileManagerVC.m */; };
+		C7DD24DF1FB0417D002DBDB7 /* LYFlieLookUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD245D1FB0417D002DBDB7 /* LYFlieLookUpVC.m */; };
+		C7DD24E01FB0417D002DBDB7 /* LYDownFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24601FB0417D002DBDB7 /* LYDownFileView.m */; };
+		C7DD24E11FB0417D002DBDB7 /* LYFileDepartmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24621FB0417D002DBDB7 /* LYFileDepartmentView.m */; };
+		C7DD24E21FB0417D002DBDB7 /* LYFileManagerToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24641FB0417D002DBDB7 /* LYFileManagerToolBar.m */; };
+		C7DD24E31FB0417D002DBDB7 /* LYFileViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24661FB0417D002DBDB7 /* LYFileViewCell.m */; };
+		C7DD24E41FB0417D002DBDB7 /* LYUnOpenFileView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24681FB0417D002DBDB7 /* LYUnOpenFileView.m */; };
+		C7DD24E51FB0417D002DBDB7 /* PrgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD246A1FB0417D002DBDB7 /* PrgressView.m */; };
+		C7DD24E61FB0417D002DBDB7 /* LYTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD246D1FB0417D002DBDB7 /* LYTAttributedLabel.m */; };
+		C7DD24E71FB0417D002DBDB7 /* MLEmojiLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD246F1FB0417D002DBDB7 /* MLEmojiLabel.m */; };
+		C7DD24E81FB0417D002DBDB7 /* MLExpressionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24721FB0417D002DBDB7 /* MLExpressionManager.m */; };
+		C7DD24E91FB0417D002DBDB7 /* MLTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24741FB0417D002DBDB7 /* MLTextAttachment.m */; };
+		C7DD24EA1FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24761FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.m */; };
+		C7DD24EB1FB0417D002DBDB7 /* NSString+MLExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24781FB0417D002DBDB7 /* NSString+MLExpression.m */; };
+		C7DD24EC1FB0417D002DBDB7 /* LYT_UI_KIT_Category_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD247A1FB0417D002DBDB7 /* LYT_UI_KIT_Category_Class.m */; };
+		C7DD24ED1FB0417D002DBDB7 /* NSString+TextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD247D1FB0417D002DBDB7 /* NSString+TextSize.m */; };
+		C7DD24EE1FB0417D002DBDB7 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD247F1FB0417D002DBDB7 /* UIColor+HexColor.m */; };
+		C7DD24EF1FB0417D002DBDB7 /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24811FB0417D002DBDB7 /* UIImage+Utility.m */; };
+		C7DD24F01FB0417D002DBDB7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24831FB0417D002DBDB7 /* UIView+Frame.m */; };
+		C7DD24F11FB0417D002DBDB7 /* UIView+HPWYSToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24851FB0417D002DBDB7 /* UIView+HPWYSToast.m */; };
+		C7DD24F21FB0417D002DBDB7 /* UIView+LYController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24871FB0417D002DBDB7 /* UIView+LYController.m */; };
+		C7DD24F31FB0417D002DBDB7 /* UIView+Present.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DD24891FB0417D002DBDB7 /* UIView+Present.m */; };
+		C7DD25001FB0419F002DBDB7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DD24FF1FB0419F002DBDB7 /* CoreTelephony.framework */; };
+		C7DD25021FB041AF002DBDB7 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DD25011FB041AF002DBDB7 /* UserNotifications.framework */; };
+		C7ECFD101FB03E87003161AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD0F1FB03E87003161AB /* main.m */; };
+		C7ECFD1B1FB03E87003161AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7ECFD1A1FB03E87003161AB /* Assets.xcassets */; };
+		C7ECFD1E1FB03E87003161AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7ECFD1C1FB03E87003161AB /* LaunchScreen.storyboard */; };
+		C7ECFD2F1FB03FF7003161AB /* AppDelegate+LZJump.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD261FB03FF7003161AB /* AppDelegate+LZJump.m */; };
+		C7ECFD301FB03FF7003161AB /* AppDelegate+LZXGPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD281FB03FF7003161AB /* AppDelegate+LZXGPush.m */; };
+		C7ECFD311FB03FF7003161AB /* AppDelegate+SDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD2A1FB03FF7003161AB /* AppDelegate+SDKConfig.m */; };
+		C7ECFD321FB03FF7003161AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD2C1FB03FF7003161AB /* AppDelegate.m */; };
+		C7ECFD331FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD2E1FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.m */; };
+		C7ECFD371FB0400A003161AB /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD361FB0400A003161AB /* UIImage+Image.m */; };
+		C7ECFD3D1FB04011003161AB /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD3A1FB04011003161AB /* LYNavigationController.m */; };
+		C7ECFD3E1FB04011003161AB /* LZTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD3C1FB04011003161AB /* LZTabbarController.m */; };
+		C7ECFD511FB0401B003161AB /* LZSessionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD421FB0401B003161AB /* LZSessionListViewController.m */; };
+		C7ECFD521FB0401B003161AB /* LZContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD451FB0401B003161AB /* LZContactViewController.m */; };
+		C7ECFD531FB0401B003161AB /* LYLZConfigInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD481FB0401B003161AB /* LYLZConfigInfo.m */; };
+		C7ECFD541FB0401B003161AB /* LYLZUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD4A1FB0401B003161AB /* LYLZUserInfo.m */; };
+		C7ECFD551FB0401B003161AB /* LZLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD4D1FB0401B003161AB /* LZLoginViewController.m */; };
+		C7ECFD561FB0401B003161AB /* LZChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD501FB0401B003161AB /* LZChatViewController.m */; };
+		C7ECFDF11FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD5A1FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.m */; };
+		C7ECFDF21FB0402C003161AB /* NSArray+InvertedOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD5C1FB0402C003161AB /* NSArray+InvertedOrder.m */; };
+		C7ECFDF31FB0402C003161AB /* NSData+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD5E1FB0402C003161AB /* NSData+Utility.m */; };
+		C7ECFDF41FB0402C003161AB /* NSString+LYMessageStr.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD601FB0402C003161AB /* NSString+LYMessageStr.m */; };
+		C7ECFDF51FB0402C003161AB /* NSString+TextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD621FB0402C003161AB /* NSString+TextSize.m */; };
+		C7ECFDF61FB0402C003161AB /* UIColor+LYColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD641FB0402C003161AB /* UIColor+LYColor.m */; };
+		C7ECFDF71FB0402C003161AB /* UIImage+BundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD661FB0402C003161AB /* UIImage+BundleImage.m */; };
+		C7ECFDF81FB0402C003161AB /* LYLZChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD6A1FB0402C003161AB /* LYLZChatManager.m */; };
+		C7ECFDF91FB0402C003161AB /* LYLZSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD6C1FB0402C003161AB /* LYLZSDK.m */; };
+		C7ECFDFA1FB0402C003161AB /* HistoryChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD701FB0402C003161AB /* HistoryChatListViewController.m */; };
+		C7ECFDFB1FB0402C003161AB /* LYLZSendRedpackageVc.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD721FB0402C003161AB /* LYLZSendRedpackageVc.m */; };
+		C7ECFDFC1FB0402C003161AB /* LYLZSystemMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD741FB0402C003161AB /* LYLZSystemMessageViewController.m */; };
+		C7ECFDFD1FB0402C003161AB /* LYTChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD771FB0402C003161AB /* LYTChatViewController.m */; };
+		C7ECFDFE1FB0402C003161AB /* LYTLZChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD791FB0402C003161AB /* LYTLZChatViewController.m */; };
+		C7ECFDFF1FB0402C003161AB /* LYAddOperationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD7D1FB0402C003161AB /* LYAddOperationButton.m */; };
+		C7ECFE001FB0402C003161AB /* LYEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD801FB0402C003161AB /* LYEmotion.m */; };
+		C7ECFE011FB0402C003161AB /* LYEmotionInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD821FB0402C003161AB /* LYEmotionInputView.m */; };
+		C7ECFE021FB0402C003161AB /* LYInputAudioRecordIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD841FB0402C003161AB /* LYInputAudioRecordIndicatorView.m */; };
+		C7ECFE031FB0402C003161AB /* LYInputEmotionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD861FB0402C003161AB /* LYInputEmotionViewCell.m */; };
+		C7ECFE041FB0402C003161AB /* LYInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD881FB0402C003161AB /* LYInputToolBar.m */; };
+		C7ECFE051FB0402C003161AB /* LYMoreInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD8A1FB0402C003161AB /* LYMoreInputView.m */; };
+		C7ECFE061FB0402C003161AB /* LYRecordHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD8C1FB0402C003161AB /* LYRecordHUD.m */; };
+		C7ECFE071FB0402C003161AB /* LYTextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD8E1FB0402C003161AB /* LYTextAttachment.m */; };
+		C7ECFE081FB0402C003161AB /* LYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD901FB0402C003161AB /* LYTextView.m */; };
+		C7ECFE091FB0402C003161AB /* LYTMessageTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD931FB0402C003161AB /* LYTMessageTipView.m */; };
+		C7ECFE0A1FB0402C003161AB /* LYSessionTimeBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD961FB0402C003161AB /* LYSessionTimeBannerCell.m */; };
+		C7ECFE0B1FB0402C003161AB /* LYTDemoTipsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD981FB0402C003161AB /* LYTDemoTipsModel.m */; };
+		C7ECFE0C1FB0402C003161AB /* LYTimeBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD9A1FB0402C003161AB /* LYTimeBannerModel.m */; };
+		C7ECFE0D1FB0402C003161AB /* TYHVoiceBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFD9D1FB0402C003161AB /* TYHVoiceBubble.m */; };
+		C7ECFE0E1FB0402C003161AB /* LYLZmessageBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDA01FB0402C003161AB /* LYLZmessageBody.m */; };
+		C7ECFE0F1FB0402C003161AB /* LYLZOrderMessageBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDA21FB0402C003161AB /* LYLZOrderMessageBody.m */; };
+		C7ECFE101FB0402C003161AB /* LYLZRedPacketMessageBody.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDA41FB0402C003161AB /* LYLZRedPacketMessageBody.m */; };
+		C7ECFE111FB0402C003161AB /* LYLZSessionList.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDA61FB0402C003161AB /* LYLZSessionList.m */; };
+		C7ECFE121FB0402C003161AB /* LYTChatMessageCellFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDA81FB0402C003161AB /* LYTChatMessageCellFrame.m */; };
+		C7ECFE131FB0402C003161AB /* LYTChatContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDAC1FB0402C003161AB /* LYTChatContentView.m */; };
+		C7ECFE141FB0402C003161AB /* LYTChatFileContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDAE1FB0402C003161AB /* LYTChatFileContentView.m */; };
+		C7ECFE151FB0402C003161AB /* LYTChatImageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDB01FB0402C003161AB /* LYTChatImageContentView.m */; };
+		C7ECFE161FB0402C003161AB /* LYTChatImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDB21FB0402C003161AB /* LYTChatImageView.m */; };
+		C7ECFE171FB0402C003161AB /* LYTChatMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDB41FB0402C003161AB /* LYTChatMessageCell.m */; };
+		C7ECFE181FB0402C003161AB /* LYTChatMessageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDB61FB0402C003161AB /* LYTChatMessageContentView.m */; };
+		C7ECFE191FB0402C003161AB /* LYTChatTextContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDB81FB0402C003161AB /* LYTChatTextContentView.m */; };
+		C7ECFE1A1FB0402C003161AB /* LYTChatVoiceContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDBA1FB0402C003161AB /* LYTChatVoiceContentView.m */; };
+		C7ECFE1B1FB0402C003161AB /* LYLZInputToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDBD1FB0402C003161AB /* LYLZInputToolBar.m */; };
+		C7ECFE1C1FB0402C003161AB /* LYLZChatListView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDC01FB0402C003161AB /* LYLZChatListView.m */; };
+		C7ECFE1D1FB0402C003161AB /* LYLZMessageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDC21FB0402C003161AB /* LYLZMessageListCell.m */; };
+		C7ECFE1E1FB0402C003161AB /* LYTMessageListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDC41FB0402C003161AB /* LYTMessageListCell.m */; };
+		C7ECFE1F1FB0402C003161AB /* LYSingleTouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDC71FB0402C003161AB /* LYSingleTouchButton.m */; };
+		C7ECFE201FB0402C003161AB /* LZChatMessageOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDC91FB0402C003161AB /* LZChatMessageOrderCell.m */; };
+		C7ECFE211FB0402C003161AB /* LZChatMessageRecPacketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDCB1FB0402C003161AB /* LZChatMessageRecPacketCell.m */; };
+		C7ECFE221FB0402C003161AB /* LZSystemMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDCD1FB0402C003161AB /* LZSystemMessageTableViewCell.m */; };
+		C7ECFE231FB0402C003161AB /* LZSystemNotiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDCF1FB0402C003161AB /* LZSystemNotiCell.m */; };
+		C7ECFE241FB0402C003161AB /* LYTCommonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDD21FB0402C003161AB /* LYTCommonConfig.m */; };
+		C7ECFE251FB0402C003161AB /* LYTFileImageSelectorNav.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDD51FB0402C003161AB /* LYTFileImageSelectorNav.m */; };
+		C7ECFE261FB0402C003161AB /* LYAudioPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDD91FB0402C003161AB /* LYAudioPlayerHelper.m */; };
+		C7ECFE271FB0402C003161AB /* LYAudioPlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDDB1FB0402C003161AB /* LYAudioPlayerUtil.m */; };
+		C7ECFE281FB0402C003161AB /* LYAudioPlayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDDD1FB0402C003161AB /* LYAudioPlayTool.m */; };
+		C7ECFE291FB0402C003161AB /* LYAudioRecorderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDDF1FB0402C003161AB /* LYAudioRecorderUtil.m */; };
+		C7ECFE2A1FB0402C003161AB /* LYCDDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDE11FB0402C003161AB /* LYCDDeviceManager.m */; };
+		C7ECFE2B1FB0402C003161AB /* LYTRecievMsgAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDE31FB0402C003161AB /* LYTRecievMsgAudio.m */; };
+		C7ECFE2C1FB0402C003161AB /* LYTVoiceCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDE51FB0402C003161AB /* LYTVoiceCacheTool.m */; };
+		C7ECFE2D1FB0402C003161AB /* TYHPrivacyPermissionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDE81FB0402C003161AB /* TYHPrivacyPermissionsManager.m */; };
+		C7ECFE2E1FB0402C003161AB /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ECFDEB1FB0402C003161AB /* libmp3lame.a */; };
+		C7ECFE2F1FB0402C003161AB /* LYDateHandleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDED1FB0402C003161AB /* LYDateHandleTool.m */; };
+		C7ECFE301FB0402C003161AB /* LYRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECFDF01FB0402C003161AB /* LYRefreshHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2054199EF312F0A36E3753DB /* Pods-LYLZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYLZDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYLZDemo/Pods-LYLZDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		85BC717AC13AFEE737B440B7 /* Pods-LYLZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYLZDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYLZDemo/Pods-LYLZDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C71FE3301FB046BD00826FA4 /* ClippedExpression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ClippedExpression.bundle; sourceTree = "<group>"; };
+		C71FE3331FB046BD00826FA4 /* LYTchatViewIcon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYTchatViewIcon.bundle; sourceTree = "<group>"; };
+		C71FE3381FB046F900826FA4 /* LYLZDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LYLZDemo.entitlements; sourceTree = "<group>"; };
+		C71FE3391FB04E8500826FA4 /* LYFileSelector.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYFileSelector.bundle; sourceTree = "<group>"; };
+		C71FE33B1FB04E8C00826FA4 /* LYTChatProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYTChatProgressHUD.bundle; sourceTree = "<group>"; };
+		C7DD23CE1FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		C7DD23CF1FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		C7DD23D01FB0417D002DBDB7 /* HPWYSProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSProgressAnimatedView.h; sourceTree = "<group>"; };
+		C7DD23D11FB0417D002DBDB7 /* HPWYSProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSProgressAnimatedView.m; sourceTree = "<group>"; };
+		C7DD23D21FB0417D002DBDB7 /* HPWYSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSProgressHUD.h; sourceTree = "<group>"; };
+		C7DD23D31FB0417D002DBDB7 /* HPWYSProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSProgressHUD.m; sourceTree = "<group>"; };
+		C7DD23D41FB0417D002DBDB7 /* HPWYSRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSRadialGradientLayer.h; sourceTree = "<group>"; };
+		C7DD23D51FB0417D002DBDB7 /* HPWYSRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSRadialGradientLayer.m; sourceTree = "<group>"; };
+		C7DD23D71FB0417D002DBDB7 /* HPWYSCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSCompositeConstraint.h; sourceTree = "<group>"; };
+		C7DD23D81FB0417D002DBDB7 /* HPWYSCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSCompositeConstraint.m; sourceTree = "<group>"; };
+		C7DD23D91FB0417D002DBDB7 /* HPWYSConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HPWYSConstraint+Private.h"; sourceTree = "<group>"; };
+		C7DD23DA1FB0417D002DBDB7 /* HPWYSConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSConstraint.h; sourceTree = "<group>"; };
+		C7DD23DB1FB0417D002DBDB7 /* HPWYSConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSConstraint.m; sourceTree = "<group>"; };
+		C7DD23DC1FB0417D002DBDB7 /* HPWYSConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSConstraintMaker.h; sourceTree = "<group>"; };
+		C7DD23DD1FB0417D002DBDB7 /* HPWYSConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSConstraintMaker.m; sourceTree = "<group>"; };
+		C7DD23DE1FB0417D002DBDB7 /* HPWYSLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSLayoutConstraint.h; sourceTree = "<group>"; };
+		C7DD23DF1FB0417D002DBDB7 /* HPWYSLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSLayoutConstraint.m; sourceTree = "<group>"; };
+		C7DD23E01FB0417D002DBDB7 /* HPWYsonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYsonry.h; sourceTree = "<group>"; };
+		C7DD23E11FB0417D002DBDB7 /* HPWYSUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSUtilities.h; sourceTree = "<group>"; };
+		C7DD23E21FB0417D002DBDB7 /* HPWYSViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSViewAttribute.h; sourceTree = "<group>"; };
+		C7DD23E31FB0417D002DBDB7 /* HPWYSViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSViewAttribute.m; sourceTree = "<group>"; };
+		C7DD23E41FB0417D002DBDB7 /* HPWYSViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSViewConstraint.h; sourceTree = "<group>"; };
+		C7DD23E51FB0417D002DBDB7 /* HPWYSViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSViewConstraint.m; sourceTree = "<group>"; };
+		C7DD23E61FB0417D002DBDB7 /* NSArray+HPWYSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HPWYSAdditions.h"; sourceTree = "<group>"; };
+		C7DD23E71FB0417D002DBDB7 /* NSArray+HPWYSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HPWYSAdditions.m"; sourceTree = "<group>"; };
+		C7DD23E81FB0417D002DBDB7 /* NSArray+HPWYSShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HPWYSShorthandAdditions.h"; sourceTree = "<group>"; };
+		C7DD23E91FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+HPWYSDebugAdditions.h"; sourceTree = "<group>"; };
+		C7DD23EA1FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+HPWYSDebugAdditions.m"; sourceTree = "<group>"; };
+		C7DD23EB1FB0417D002DBDB7 /* View+HPWYSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+HPWYSAdditions.h"; sourceTree = "<group>"; };
+		C7DD23EC1FB0417D002DBDB7 /* View+HPWYSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+HPWYSAdditions.m"; sourceTree = "<group>"; };
+		C7DD23ED1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+HPWYSAdditions.h"; sourceTree = "<group>"; };
+		C7DD23EE1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+HPWYSAdditions.m"; sourceTree = "<group>"; };
+		C7DD23F01FB0417D002DBDB7 /* HPWYSImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSImageCache.h; sourceTree = "<group>"; };
+		C7DD23F11FB0417D002DBDB7 /* HPWYSImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSImageCache.m; sourceTree = "<group>"; };
+		C7DD23F21FB0417D002DBDB7 /* HPWYSWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImageCompat.h; sourceTree = "<group>"; };
+		C7DD23F31FB0417D002DBDB7 /* HPWYSWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSWebImageCompat.m; sourceTree = "<group>"; };
+		C7DD23F41FB0417D002DBDB7 /* HPWYSWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImageDecoder.h; sourceTree = "<group>"; };
+		C7DD23F51FB0417D002DBDB7 /* HPWYSWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSWebImageDecoder.m; sourceTree = "<group>"; };
+		C7DD23F61FB0417D002DBDB7 /* HPWYSWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImageDownloader.h; sourceTree = "<group>"; };
+		C7DD23F71FB0417D002DBDB7 /* HPWYSWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSWebImageDownloader.m; sourceTree = "<group>"; };
+		C7DD23F81FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		C7DD23F91FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		C7DD23FA1FB0417D002DBDB7 /* HPWYSWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImageManager.h; sourceTree = "<group>"; };
+		C7DD23FB1FB0417D002DBDB7 /* HPWYSWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSWebImageManager.m; sourceTree = "<group>"; };
+		C7DD23FC1FB0417D002DBDB7 /* HPWYSWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImageOperation.h; sourceTree = "<group>"; };
+		C7DD23FD1FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPWYSWebImagePrefetcher.h; sourceTree = "<group>"; };
+		C7DD23FE1FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPWYSWebImagePrefetcher.m; sourceTree = "<group>"; };
+		C7DD23FF1FB0417D002DBDB7 /* NSData+HPWYSImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+HPWYSImageContentType.h"; sourceTree = "<group>"; };
+		C7DD24001FB0417D002DBDB7 /* NSData+HPWYSImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+HPWYSImageContentType.m"; sourceTree = "<group>"; };
+		C7DD24011FB0417D002DBDB7 /* UIButton+HPWYSWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HPWYSWebCache.h"; sourceTree = "<group>"; };
+		C7DD24021FB0417D002DBDB7 /* UIButton+HPWYSWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HPWYSWebCache.m"; sourceTree = "<group>"; };
+		C7DD24031FB0417D002DBDB7 /* UIImage+HPWYSGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HPWYSGIF.h"; sourceTree = "<group>"; };
+		C7DD24041FB0417D002DBDB7 /* UIImage+HPWYSGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HPWYSGIF.m"; sourceTree = "<group>"; };
+		C7DD24051FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HPWYSMultiFormat.h"; sourceTree = "<group>"; };
+		C7DD24061FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HPWYSMultiFormat.m"; sourceTree = "<group>"; };
+		C7DD24071FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HPWYSHighlightedWebCache.h"; sourceTree = "<group>"; };
+		C7DD24081FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HPWYSHighlightedWebCache.m"; sourceTree = "<group>"; };
+		C7DD24091FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HPWYSWebCache.h"; sourceTree = "<group>"; };
+		C7DD240A1FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HPWYSWebCache.m"; sourceTree = "<group>"; };
+		C7DD240B1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPWYSWebCacheOperation.h"; sourceTree = "<group>"; };
+		C7DD240C1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPWYSWebCacheOperation.m"; sourceTree = "<group>"; };
+		C7DD240E1FB0417D002DBDB7 /* LYAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAsset.h; sourceTree = "<group>"; };
+		C7DD240F1FB0417D002DBDB7 /* LYAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAsset.m; sourceTree = "<group>"; };
+		C7DD24101FB0417D002DBDB7 /* LYAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetCell.h; sourceTree = "<group>"; };
+		C7DD24111FB0417D002DBDB7 /* LYAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetCell.m; sourceTree = "<group>"; };
+		C7DD24121FB0417D002DBDB7 /* LYAssetGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetGridCell.h; sourceTree = "<group>"; };
+		C7DD24131FB0417D002DBDB7 /* LYAssetGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetGridCell.m; sourceTree = "<group>"; };
+		C7DD24141FB0417D002DBDB7 /* LYAssetGridToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetGridToolBar.h; sourceTree = "<group>"; };
+		C7DD24151FB0417D002DBDB7 /* LYAssetGridToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetGridToolBar.m; sourceTree = "<group>"; };
+		C7DD24161FB0417D002DBDB7 /* LYAssetGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetGridViewController.h; sourceTree = "<group>"; };
+		C7DD24171FB0417D002DBDB7 /* LYAssetGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetGridViewController.m; sourceTree = "<group>"; };
+		C7DD24181FB0417D002DBDB7 /* LYAssetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAssetViewController.h; sourceTree = "<group>"; };
+		C7DD24191FB0417D002DBDB7 /* LYAssetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAssetViewController.m; sourceTree = "<group>"; };
+		C7DD241A1FB0417D002DBDB7 /* LYPhotoBrowseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotoBrowseCell.h; sourceTree = "<group>"; };
+		C7DD241B1FB0417D002DBDB7 /* LYPhotoBrowseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotoBrowseCell.m; sourceTree = "<group>"; };
+		C7DD241C1FB0417D002DBDB7 /* LYPhotoBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYPhotoBrowseView.h; sourceTree = "<group>"; };
+		C7DD241D1FB0417D002DBDB7 /* LYPhotoBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPhotoBrowseView.m; sourceTree = "<group>"; };
+		C7DD241E1FB0417D002DBDB7 /* LYTProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTProgressView.h; sourceTree = "<group>"; };
+		C7DD241F1FB0417D002DBDB7 /* LYTProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTProgressView.m; sourceTree = "<group>"; };
+		C7DD24201FB0417D002DBDB7 /* UIImageView+AssetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AssetImage.h"; sourceTree = "<group>"; };
+		C7DD24211FB0417D002DBDB7 /* UIImageView+AssetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AssetImage.m"; sourceTree = "<group>"; };
+		C7DD24241FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshAutoFooter.h; sourceTree = "<group>"; };
+		C7DD24251FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshAutoFooter.m; sourceTree = "<group>"; };
+		C7DD24261FB0417D002DBDB7 /* LYCOMRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshBackFooter.h; sourceTree = "<group>"; };
+		C7DD24271FB0417D002DBDB7 /* LYCOMRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshBackFooter.m; sourceTree = "<group>"; };
+		C7DD24281FB0417D002DBDB7 /* LYCOMRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshComponent.h; sourceTree = "<group>"; };
+		C7DD24291FB0417D002DBDB7 /* LYCOMRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshComponent.m; sourceTree = "<group>"; };
+		C7DD242A1FB0417D002DBDB7 /* LYCOMRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshFooter.h; sourceTree = "<group>"; };
+		C7DD242B1FB0417D002DBDB7 /* LYCOMRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshFooter.m; sourceTree = "<group>"; };
+		C7DD242C1FB0417D002DBDB7 /* LYCOMRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshHeader.h; sourceTree = "<group>"; };
+		C7DD242D1FB0417D002DBDB7 /* LYCOMRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshHeader.m; sourceTree = "<group>"; };
+		C7DD24311FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		C7DD24321FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		C7DD24331FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		C7DD24341FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		C7DD24351FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		C7DD24361FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		C7DD24381FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshBackGifFooter.h; sourceTree = "<group>"; };
+		C7DD24391FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		C7DD243A1FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		C7DD243B1FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		C7DD243C1FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		C7DD243D1FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		C7DD243F1FB0417D002DBDB7 /* LYCOMRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshGifHeader.h; sourceTree = "<group>"; };
+		C7DD24401FB0417D002DBDB7 /* LYCOMRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshGifHeader.m; sourceTree = "<group>"; };
+		C7DD24411FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshNormalHeader.h; sourceTree = "<group>"; };
+		C7DD24421FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshNormalHeader.m; sourceTree = "<group>"; };
+		C7DD24431FB0417D002DBDB7 /* LYCOMRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshStateHeader.h; sourceTree = "<group>"; };
+		C7DD24441FB0417D002DBDB7 /* LYCOMRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshStateHeader.m; sourceTree = "<group>"; };
+		C7DD24451FB0417D002DBDB7 /* LYCOMRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefresh.h; sourceTree = "<group>"; };
+		C7DD24461FB0417D002DBDB7 /* LYCOMRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCOMRefreshConst.h; sourceTree = "<group>"; };
+		C7DD24471FB0417D002DBDB7 /* LYCOMRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCOMRefreshConst.m; sourceTree = "<group>"; };
+		C7DD24481FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LYCOMExtension.h"; sourceTree = "<group>"; };
+		C7DD24491FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LYCOMExtension.m"; sourceTree = "<group>"; };
+		C7DD244A1FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LYCOMRefresh.h"; sourceTree = "<group>"; };
+		C7DD244B1FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LYCOMRefresh.m"; sourceTree = "<group>"; };
+		C7DD244C1FB0417D002DBDB7 /* UIView+LYCOMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCOMExtension.h"; sourceTree = "<group>"; };
+		C7DD244D1FB0417D002DBDB7 /* UIView+LYCOMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCOMExtension.m"; sourceTree = "<group>"; };
+		C7DD24501FB0417D002DBDB7 /* NSFileManager+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Tool.h"; sourceTree = "<group>"; };
+		C7DD24511FB0417D002DBDB7 /* NSFileManager+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Tool.m"; sourceTree = "<group>"; };
+		C7DD24521FB0417D002DBDB7 /* NSString+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Time.h"; sourceTree = "<group>"; };
+		C7DD24531FB0417D002DBDB7 /* NSString+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Time.m"; sourceTree = "<group>"; };
+		C7DD24541FB0417D002DBDB7 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		C7DD24551FB0417D002DBDB7 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		C7DD24571FB0417D002DBDB7 /* LYFileObjModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFileObjModel.h; sourceTree = "<group>"; };
+		C7DD24581FB0417D002DBDB7 /* LYFileObjModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFileObjModel.m; sourceTree = "<group>"; };
+		C7DD245A1FB0417D002DBDB7 /* LYFileManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFileManagerVC.h; sourceTree = "<group>"; };
+		C7DD245B1FB0417D002DBDB7 /* LYFileManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFileManagerVC.m; sourceTree = "<group>"; };
+		C7DD245C1FB0417D002DBDB7 /* LYFlieLookUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFlieLookUpVC.h; sourceTree = "<group>"; };
+		C7DD245D1FB0417D002DBDB7 /* LYFlieLookUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFlieLookUpVC.m; sourceTree = "<group>"; };
+		C7DD245F1FB0417D002DBDB7 /* LYDownFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDownFileView.h; sourceTree = "<group>"; };
+		C7DD24601FB0417D002DBDB7 /* LYDownFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDownFileView.m; sourceTree = "<group>"; };
+		C7DD24611FB0417D002DBDB7 /* LYFileDepartmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFileDepartmentView.h; sourceTree = "<group>"; };
+		C7DD24621FB0417D002DBDB7 /* LYFileDepartmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFileDepartmentView.m; sourceTree = "<group>"; };
+		C7DD24631FB0417D002DBDB7 /* LYFileManagerToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFileManagerToolBar.h; sourceTree = "<group>"; };
+		C7DD24641FB0417D002DBDB7 /* LYFileManagerToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFileManagerToolBar.m; sourceTree = "<group>"; };
+		C7DD24651FB0417D002DBDB7 /* LYFileViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFileViewCell.h; sourceTree = "<group>"; };
+		C7DD24661FB0417D002DBDB7 /* LYFileViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFileViewCell.m; sourceTree = "<group>"; };
+		C7DD24671FB0417D002DBDB7 /* LYUnOpenFileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYUnOpenFileView.h; sourceTree = "<group>"; };
+		C7DD24681FB0417D002DBDB7 /* LYUnOpenFileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYUnOpenFileView.m; sourceTree = "<group>"; };
+		C7DD24691FB0417D002DBDB7 /* PrgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrgressView.h; sourceTree = "<group>"; };
+		C7DD246A1FB0417D002DBDB7 /* PrgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrgressView.m; sourceTree = "<group>"; };
+		C7DD246C1FB0417D002DBDB7 /* LYTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTAttributedLabel.h; sourceTree = "<group>"; };
+		C7DD246D1FB0417D002DBDB7 /* LYTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTAttributedLabel.m; sourceTree = "<group>"; };
+		C7DD246E1FB0417D002DBDB7 /* MLEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLEmojiLabel.h; sourceTree = "<group>"; };
+		C7DD246F1FB0417D002DBDB7 /* MLEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLEmojiLabel.m; sourceTree = "<group>"; };
+		C7DD24711FB0417D002DBDB7 /* MLExpressionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLExpressionManager.h; sourceTree = "<group>"; };
+		C7DD24721FB0417D002DBDB7 /* MLExpressionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLExpressionManager.m; sourceTree = "<group>"; };
+		C7DD24731FB0417D002DBDB7 /* MLTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTextAttachment.h; sourceTree = "<group>"; };
+		C7DD24741FB0417D002DBDB7 /* MLTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTextAttachment.m; sourceTree = "<group>"; };
+		C7DD24751FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+TYHEmojiExpression.h"; sourceTree = "<group>"; };
+		C7DD24761FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+TYHEmojiExpression.m"; sourceTree = "<group>"; };
+		C7DD24771FB0417D002DBDB7 /* NSString+MLExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MLExpression.h"; sourceTree = "<group>"; };
+		C7DD24781FB0417D002DBDB7 /* NSString+MLExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MLExpression.m"; sourceTree = "<group>"; };
+		C7DD247A1FB0417D002DBDB7 /* LYT_UI_KIT_Category_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYT_UI_KIT_Category_Class.m; sourceTree = "<group>"; };
+		C7DD247B1FB0417D002DBDB7 /* LYTUIKitCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTUIKitCategoryHeader.h; sourceTree = "<group>"; };
+		C7DD247C1FB0417D002DBDB7 /* NSString+TextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextSize.h"; sourceTree = "<group>"; };
+		C7DD247D1FB0417D002DBDB7 /* NSString+TextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextSize.m"; sourceTree = "<group>"; };
+		C7DD247E1FB0417D002DBDB7 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		C7DD247F1FB0417D002DBDB7 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		C7DD24801FB0417D002DBDB7 /* UIImage+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		C7DD24811FB0417D002DBDB7 /* UIImage+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
+		C7DD24821FB0417D002DBDB7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C7DD24831FB0417D002DBDB7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C7DD24841FB0417D002DBDB7 /* UIView+HPWYSToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HPWYSToast.h"; sourceTree = "<group>"; };
+		C7DD24851FB0417D002DBDB7 /* UIView+HPWYSToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HPWYSToast.m"; sourceTree = "<group>"; };
+		C7DD24861FB0417D002DBDB7 /* UIView+LYController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYController.h"; sourceTree = "<group>"; };
+		C7DD24871FB0417D002DBDB7 /* UIView+LYController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYController.m"; sourceTree = "<group>"; };
+		C7DD24881FB0417D002DBDB7 /* UIView+Present.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Present.h"; sourceTree = "<group>"; };
+		C7DD24891FB0417D002DBDB7 /* UIView+Present.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Present.m"; sourceTree = "<group>"; };
+		C7DD24FF1FB0419F002DBDB7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C7DD25011FB041AF002DBDB7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C7ECFD0B1FB03E87003161AB /* LYLZDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYLZDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7ECFD0F1FB03E87003161AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7ECFD1A1FB03E87003161AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7ECFD1D1FB03E87003161AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7ECFD1F1FB03E87003161AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7ECFD251FB03FF7003161AB /* AppDelegate+LZJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LZJump.h"; sourceTree = "<group>"; };
+		C7ECFD261FB03FF7003161AB /* AppDelegate+LZJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LZJump.m"; sourceTree = "<group>"; };
+		C7ECFD271FB03FF7003161AB /* AppDelegate+LZXGPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LZXGPush.h"; sourceTree = "<group>"; };
+		C7ECFD281FB03FF7003161AB /* AppDelegate+LZXGPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LZXGPush.m"; sourceTree = "<group>"; };
+		C7ECFD291FB03FF7003161AB /* AppDelegate+SDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+SDKConfig.h"; sourceTree = "<group>"; };
+		C7ECFD2A1FB03FF7003161AB /* AppDelegate+SDKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+SDKConfig.m"; sourceTree = "<group>"; };
+		C7ECFD2B1FB03FF7003161AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7ECFD2C1FB03FF7003161AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7ECFD2D1FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LYLZChatDelegate.h"; sourceTree = "<group>"; };
+		C7ECFD2E1FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LYLZChatDelegate.m"; sourceTree = "<group>"; };
+		C7ECFD351FB0400A003161AB /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		C7ECFD361FB0400A003161AB /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		C7ECFD391FB04011003161AB /* LYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
+		C7ECFD3A1FB04011003161AB /* LYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		C7ECFD3B1FB04011003161AB /* LZTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZTabbarController.h; sourceTree = "<group>"; };
+		C7ECFD3C1FB04011003161AB /* LZTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZTabbarController.m; sourceTree = "<group>"; };
+		C7ECFD411FB0401B003161AB /* LZSessionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSessionListViewController.h; sourceTree = "<group>"; };
+		C7ECFD421FB0401B003161AB /* LZSessionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSessionListViewController.m; sourceTree = "<group>"; };
+		C7ECFD441FB0401B003161AB /* LZContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZContactViewController.h; sourceTree = "<group>"; };
+		C7ECFD451FB0401B003161AB /* LZContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZContactViewController.m; sourceTree = "<group>"; };
+		C7ECFD471FB0401B003161AB /* LYLZConfigInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZConfigInfo.h; sourceTree = "<group>"; };
+		C7ECFD481FB0401B003161AB /* LYLZConfigInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZConfigInfo.m; sourceTree = "<group>"; };
+		C7ECFD491FB0401B003161AB /* LYLZUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZUserInfo.h; sourceTree = "<group>"; };
+		C7ECFD4A1FB0401B003161AB /* LYLZUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZUserInfo.m; sourceTree = "<group>"; };
+		C7ECFD4C1FB0401B003161AB /* LZLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZLoginViewController.h; sourceTree = "<group>"; };
+		C7ECFD4D1FB0401B003161AB /* LZLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZLoginViewController.m; sourceTree = "<group>"; };
+		C7ECFD4F1FB0401B003161AB /* LZChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZChatViewController.h; sourceTree = "<group>"; };
+		C7ECFD501FB0401B003161AB /* LZChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZChatViewController.m; sourceTree = "<group>"; };
+		C7ECFD591FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYTMessageBody+LYPhotoBrowsePotoProtocol.h"; sourceTree = "<group>"; };
+		C7ECFD5A1FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYTMessageBody+LYPhotoBrowsePotoProtocol.m"; sourceTree = "<group>"; };
+		C7ECFD5B1FB0402C003161AB /* NSArray+InvertedOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+InvertedOrder.h"; sourceTree = "<group>"; };
+		C7ECFD5C1FB0402C003161AB /* NSArray+InvertedOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+InvertedOrder.m"; sourceTree = "<group>"; };
+		C7ECFD5D1FB0402C003161AB /* NSData+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Utility.h"; sourceTree = "<group>"; };
+		C7ECFD5E1FB0402C003161AB /* NSData+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Utility.m"; sourceTree = "<group>"; };
+		C7ECFD5F1FB0402C003161AB /* NSString+LYMessageStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYMessageStr.h"; sourceTree = "<group>"; };
+		C7ECFD601FB0402C003161AB /* NSString+LYMessageStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYMessageStr.m"; sourceTree = "<group>"; };
+		C7ECFD611FB0402C003161AB /* NSString+TextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextSize.h"; sourceTree = "<group>"; };
+		C7ECFD621FB0402C003161AB /* NSString+TextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextSize.m"; sourceTree = "<group>"; };
+		C7ECFD631FB0402C003161AB /* UIColor+LYColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYColor.h"; sourceTree = "<group>"; };
+		C7ECFD641FB0402C003161AB /* UIColor+LYColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYColor.m"; sourceTree = "<group>"; };
+		C7ECFD651FB0402C003161AB /* UIImage+BundleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BundleImage.h"; sourceTree = "<group>"; };
+		C7ECFD661FB0402C003161AB /* UIImage+BundleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BundleImage.m"; sourceTree = "<group>"; };
+		C7ECFD681FB0402C003161AB /* LYLZChatManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYLZChatManager+Private.h"; sourceTree = "<group>"; };
+		C7ECFD691FB0402C003161AB /* LYLZChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZChatManager.h; sourceTree = "<group>"; };
+		C7ECFD6A1FB0402C003161AB /* LYLZChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZChatManager.m; sourceTree = "<group>"; };
+		C7ECFD6B1FB0402C003161AB /* LYLZSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZSDK.h; sourceTree = "<group>"; };
+		C7ECFD6C1FB0402C003161AB /* LYLZSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZSDK.m; sourceTree = "<group>"; };
+		C7ECFD6F1FB0402C003161AB /* HistoryChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryChatListViewController.h; sourceTree = "<group>"; };
+		C7ECFD701FB0402C003161AB /* HistoryChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryChatListViewController.m; sourceTree = "<group>"; };
+		C7ECFD711FB0402C003161AB /* LYLZSendRedpackageVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZSendRedpackageVc.h; sourceTree = "<group>"; };
+		C7ECFD721FB0402C003161AB /* LYLZSendRedpackageVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZSendRedpackageVc.m; sourceTree = "<group>"; };
+		C7ECFD731FB0402C003161AB /* LYLZSystemMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZSystemMessageViewController.h; sourceTree = "<group>"; };
+		C7ECFD741FB0402C003161AB /* LYLZSystemMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZSystemMessageViewController.m; sourceTree = "<group>"; };
+		C7ECFD751FB0402C003161AB /* LYTChatViewController+PrivateAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYTChatViewController+PrivateAPI.h"; sourceTree = "<group>"; };
+		C7ECFD761FB0402C003161AB /* LYTChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatViewController.h; sourceTree = "<group>"; };
+		C7ECFD771FB0402C003161AB /* LYTChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatViewController.m; sourceTree = "<group>"; };
+		C7ECFD781FB0402C003161AB /* LYTLZChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTLZChatViewController.h; sourceTree = "<group>"; };
+		C7ECFD791FB0402C003161AB /* LYTLZChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTLZChatViewController.m; sourceTree = "<group>"; };
+		C7ECFD7C1FB0402C003161AB /* LYAddOperationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAddOperationButton.h; sourceTree = "<group>"; };
+		C7ECFD7D1FB0402C003161AB /* LYAddOperationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAddOperationButton.m; sourceTree = "<group>"; };
+		C7ECFD7E1FB0402C003161AB /* LYEmojiDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmojiDic.h; sourceTree = "<group>"; };
+		C7ECFD7F1FB0402C003161AB /* LYEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmotion.h; sourceTree = "<group>"; };
+		C7ECFD801FB0402C003161AB /* LYEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmotion.m; sourceTree = "<group>"; };
+		C7ECFD811FB0402C003161AB /* LYEmotionInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmotionInputView.h; sourceTree = "<group>"; };
+		C7ECFD821FB0402C003161AB /* LYEmotionInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmotionInputView.m; sourceTree = "<group>"; };
+		C7ECFD831FB0402C003161AB /* LYInputAudioRecordIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYInputAudioRecordIndicatorView.h; sourceTree = "<group>"; };
+		C7ECFD841FB0402C003161AB /* LYInputAudioRecordIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYInputAudioRecordIndicatorView.m; sourceTree = "<group>"; };
+		C7ECFD851FB0402C003161AB /* LYInputEmotionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYInputEmotionViewCell.h; sourceTree = "<group>"; };
+		C7ECFD861FB0402C003161AB /* LYInputEmotionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYInputEmotionViewCell.m; sourceTree = "<group>"; };
+		C7ECFD871FB0402C003161AB /* LYInputToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYInputToolBar.h; sourceTree = "<group>"; };
+		C7ECFD881FB0402C003161AB /* LYInputToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYInputToolBar.m; sourceTree = "<group>"; };
+		C7ECFD891FB0402C003161AB /* LYMoreInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMoreInputView.h; sourceTree = "<group>"; };
+		C7ECFD8A1FB0402C003161AB /* LYMoreInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMoreInputView.m; sourceTree = "<group>"; };
+		C7ECFD8B1FB0402C003161AB /* LYRecordHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRecordHUD.h; sourceTree = "<group>"; };
+		C7ECFD8C1FB0402C003161AB /* LYRecordHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRecordHUD.m; sourceTree = "<group>"; };
+		C7ECFD8D1FB0402C003161AB /* LYTextAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTextAttachment.h; sourceTree = "<group>"; };
+		C7ECFD8E1FB0402C003161AB /* LYTextAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTextAttachment.m; sourceTree = "<group>"; };
+		C7ECFD8F1FB0402C003161AB /* LYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTextView.h; sourceTree = "<group>"; };
+		C7ECFD901FB0402C003161AB /* LYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTextView.m; sourceTree = "<group>"; };
+		C7ECFD921FB0402C003161AB /* LYTMessageTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTMessageTipView.h; sourceTree = "<group>"; };
+		C7ECFD931FB0402C003161AB /* LYTMessageTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTMessageTipView.m; sourceTree = "<group>"; };
+		C7ECFD951FB0402C003161AB /* LYSessionTimeBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSessionTimeBannerCell.h; sourceTree = "<group>"; };
+		C7ECFD961FB0402C003161AB /* LYSessionTimeBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSessionTimeBannerCell.m; sourceTree = "<group>"; };
+		C7ECFD971FB0402C003161AB /* LYTDemoTipsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTDemoTipsModel.h; sourceTree = "<group>"; };
+		C7ECFD981FB0402C003161AB /* LYTDemoTipsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTDemoTipsModel.m; sourceTree = "<group>"; };
+		C7ECFD991FB0402C003161AB /* LYTimeBannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTimeBannerModel.h; sourceTree = "<group>"; };
+		C7ECFD9A1FB0402C003161AB /* LYTimeBannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTimeBannerModel.m; sourceTree = "<group>"; };
+		C7ECFD9C1FB0402C003161AB /* TYHVoiceBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHVoiceBubble.h; sourceTree = "<group>"; };
+		C7ECFD9D1FB0402C003161AB /* TYHVoiceBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHVoiceBubble.m; sourceTree = "<group>"; };
+		C7ECFD9F1FB0402C003161AB /* LYLZmessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZmessageBody.h; sourceTree = "<group>"; };
+		C7ECFDA01FB0402C003161AB /* LYLZmessageBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZmessageBody.m; sourceTree = "<group>"; };
+		C7ECFDA11FB0402C003161AB /* LYLZOrderMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZOrderMessageBody.h; sourceTree = "<group>"; };
+		C7ECFDA21FB0402C003161AB /* LYLZOrderMessageBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZOrderMessageBody.m; sourceTree = "<group>"; };
+		C7ECFDA31FB0402C003161AB /* LYLZRedPacketMessageBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZRedPacketMessageBody.h; sourceTree = "<group>"; };
+		C7ECFDA41FB0402C003161AB /* LYLZRedPacketMessageBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZRedPacketMessageBody.m; sourceTree = "<group>"; };
+		C7ECFDA51FB0402C003161AB /* LYLZSessionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZSessionList.h; sourceTree = "<group>"; };
+		C7ECFDA61FB0402C003161AB /* LYLZSessionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZSessionList.m; sourceTree = "<group>"; };
+		C7ECFDA71FB0402C003161AB /* LYTChatMessageCellFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatMessageCellFrame.h; sourceTree = "<group>"; };
+		C7ECFDA81FB0402C003161AB /* LYTChatMessageCellFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatMessageCellFrame.m; sourceTree = "<group>"; };
+		C7ECFDAB1FB0402C003161AB /* LYTChatContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatContentView.h; sourceTree = "<group>"; };
+		C7ECFDAC1FB0402C003161AB /* LYTChatContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatContentView.m; sourceTree = "<group>"; };
+		C7ECFDAD1FB0402C003161AB /* LYTChatFileContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatFileContentView.h; sourceTree = "<group>"; };
+		C7ECFDAE1FB0402C003161AB /* LYTChatFileContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatFileContentView.m; sourceTree = "<group>"; };
+		C7ECFDAF1FB0402C003161AB /* LYTChatImageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatImageContentView.h; sourceTree = "<group>"; };
+		C7ECFDB01FB0402C003161AB /* LYTChatImageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatImageContentView.m; sourceTree = "<group>"; };
+		C7ECFDB11FB0402C003161AB /* LYTChatImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatImageView.h; sourceTree = "<group>"; };
+		C7ECFDB21FB0402C003161AB /* LYTChatImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatImageView.m; sourceTree = "<group>"; };
+		C7ECFDB31FB0402C003161AB /* LYTChatMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatMessageCell.h; sourceTree = "<group>"; };
+		C7ECFDB41FB0402C003161AB /* LYTChatMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatMessageCell.m; sourceTree = "<group>"; };
+		C7ECFDB51FB0402C003161AB /* LYTChatMessageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatMessageContentView.h; sourceTree = "<group>"; };
+		C7ECFDB61FB0402C003161AB /* LYTChatMessageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatMessageContentView.m; sourceTree = "<group>"; };
+		C7ECFDB71FB0402C003161AB /* LYTChatTextContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatTextContentView.h; sourceTree = "<group>"; };
+		C7ECFDB81FB0402C003161AB /* LYTChatTextContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatTextContentView.m; sourceTree = "<group>"; };
+		C7ECFDB91FB0402C003161AB /* LYTChatVoiceContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTChatVoiceContentView.h; sourceTree = "<group>"; };
+		C7ECFDBA1FB0402C003161AB /* LYTChatVoiceContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTChatVoiceContentView.m; sourceTree = "<group>"; };
+		C7ECFDBC1FB0402C003161AB /* LYLZInputToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZInputToolBar.h; sourceTree = "<group>"; };
+		C7ECFDBD1FB0402C003161AB /* LYLZInputToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZInputToolBar.m; sourceTree = "<group>"; };
+		C7ECFDBF1FB0402C003161AB /* LYLZChatListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZChatListView.h; sourceTree = "<group>"; };
+		C7ECFDC01FB0402C003161AB /* LYLZChatListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZChatListView.m; sourceTree = "<group>"; };
+		C7ECFDC11FB0402C003161AB /* LYLZMessageListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLZMessageListCell.h; sourceTree = "<group>"; };
+		C7ECFDC21FB0402C003161AB /* LYLZMessageListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLZMessageListCell.m; sourceTree = "<group>"; };
+		C7ECFDC31FB0402C003161AB /* LYTMessageListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTMessageListCell.h; sourceTree = "<group>"; };
+		C7ECFDC41FB0402C003161AB /* LYTMessageListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTMessageListCell.m; sourceTree = "<group>"; };
+		C7ECFDC61FB0402C003161AB /* LYSingleTouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSingleTouchButton.h; sourceTree = "<group>"; };
+		C7ECFDC71FB0402C003161AB /* LYSingleTouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSingleTouchButton.m; sourceTree = "<group>"; };
+		C7ECFDC81FB0402C003161AB /* LZChatMessageOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZChatMessageOrderCell.h; sourceTree = "<group>"; };
+		C7ECFDC91FB0402C003161AB /* LZChatMessageOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZChatMessageOrderCell.m; sourceTree = "<group>"; };
+		C7ECFDCA1FB0402C003161AB /* LZChatMessageRecPacketCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZChatMessageRecPacketCell.h; sourceTree = "<group>"; };
+		C7ECFDCB1FB0402C003161AB /* LZChatMessageRecPacketCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZChatMessageRecPacketCell.m; sourceTree = "<group>"; };
+		C7ECFDCC1FB0402C003161AB /* LZSystemMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSystemMessageTableViewCell.h; sourceTree = "<group>"; };
+		C7ECFDCD1FB0402C003161AB /* LZSystemMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSystemMessageTableViewCell.m; sourceTree = "<group>"; };
+		C7ECFDCE1FB0402C003161AB /* LZSystemNotiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZSystemNotiCell.h; sourceTree = "<group>"; };
+		C7ECFDCF1FB0402C003161AB /* LZSystemNotiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZSystemNotiCell.m; sourceTree = "<group>"; };
+		C7ECFDD11FB0402C003161AB /* LYTCommonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTCommonConfig.h; sourceTree = "<group>"; };
+		C7ECFDD21FB0402C003161AB /* LYTCommonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTCommonConfig.m; sourceTree = "<group>"; };
+		C7ECFDD31FB0402C003161AB /* LYTCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTCommonHeader.h; sourceTree = "<group>"; };
+		C7ECFDD41FB0402C003161AB /* LYTFileImageSelectorNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTFileImageSelectorNav.h; sourceTree = "<group>"; };
+		C7ECFDD51FB0402C003161AB /* LYTFileImageSelectorNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTFileImageSelectorNav.m; sourceTree = "<group>"; };
+		C7ECFDD81FB0402C003161AB /* LYAudioPlayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAudioPlayerHelper.h; sourceTree = "<group>"; };
+		C7ECFDD91FB0402C003161AB /* LYAudioPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAudioPlayerHelper.m; sourceTree = "<group>"; };
+		C7ECFDDA1FB0402C003161AB /* LYAudioPlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAudioPlayerUtil.h; sourceTree = "<group>"; };
+		C7ECFDDB1FB0402C003161AB /* LYAudioPlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAudioPlayerUtil.m; sourceTree = "<group>"; };
+		C7ECFDDC1FB0402C003161AB /* LYAudioPlayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAudioPlayTool.h; sourceTree = "<group>"; };
+		C7ECFDDD1FB0402C003161AB /* LYAudioPlayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAudioPlayTool.m; sourceTree = "<group>"; };
+		C7ECFDDE1FB0402C003161AB /* LYAudioRecorderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYAudioRecorderUtil.h; sourceTree = "<group>"; };
+		C7ECFDDF1FB0402C003161AB /* LYAudioRecorderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYAudioRecorderUtil.m; sourceTree = "<group>"; };
+		C7ECFDE01FB0402C003161AB /* LYCDDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCDDeviceManager.h; sourceTree = "<group>"; };
+		C7ECFDE11FB0402C003161AB /* LYCDDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCDDeviceManager.m; sourceTree = "<group>"; };
+		C7ECFDE21FB0402C003161AB /* LYTRecievMsgAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTRecievMsgAudio.h; sourceTree = "<group>"; };
+		C7ECFDE31FB0402C003161AB /* LYTRecievMsgAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTRecievMsgAudio.m; sourceTree = "<group>"; };
+		C7ECFDE41FB0402C003161AB /* LYTVoiceCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTVoiceCacheTool.h; sourceTree = "<group>"; };
+		C7ECFDE51FB0402C003161AB /* LYTVoiceCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTVoiceCacheTool.m; sourceTree = "<group>"; };
+		C7ECFDE71FB0402C003161AB /* TYHPrivacyPermissionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHPrivacyPermissionsManager.h; sourceTree = "<group>"; };
+		C7ECFDE81FB0402C003161AB /* TYHPrivacyPermissionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHPrivacyPermissionsManager.m; sourceTree = "<group>"; };
+		C7ECFDEA1FB0402C003161AB /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		C7ECFDEB1FB0402C003161AB /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		C7ECFDEC1FB0402C003161AB /* LYDateHandleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDateHandleTool.h; sourceTree = "<group>"; };
+		C7ECFDED1FB0402C003161AB /* LYDateHandleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDateHandleTool.m; sourceTree = "<group>"; };
+		C7ECFDEF1FB0402C003161AB /* LYRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYRefreshHeader.h; sourceTree = "<group>"; };
+		C7ECFDF01FB0402C003161AB /* LYRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRefreshHeader.m; sourceTree = "<group>"; };
+		F655AD2F142A972E2E2854B1 /* libPods-LYLZDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYLZDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7ECFD081FB03E87003161AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DD25021FB041AF002DBDB7 /* UserNotifications.framework in Frameworks */,
+				C7DD25001FB0419F002DBDB7 /* CoreTelephony.framework in Frameworks */,
+				5FA3ECA2717D94588E4CC2DA /* libPods-LYLZDemo.a in Frameworks */,
+				C7ECFE2E1FB0402C003161AB /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6392A3C64F335289A4F9AD2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD25011FB041AF002DBDB7 /* UserNotifications.framework */,
+				C7DD24FF1FB0419F002DBDB7 /* CoreTelephony.framework */,
+				F655AD2F142A972E2E2854B1 /* libPods-LYLZDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C71FE32F1FB046BD00826FA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71FE33B1FB04E8C00826FA4 /* LYTChatProgressHUD.bundle */,
+				C71FE3391FB04E8500826FA4 /* LYFileSelector.bundle */,
+				C71FE3301FB046BD00826FA4 /* ClippedExpression.bundle */,
+				C71FE3331FB046BD00826FA4 /* LYTchatViewIcon.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7DD23CC1FB0417D002DBDB7 /* ThirdPartyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD23CD1FB0417D002DBDB7 /* HPWProgressHUD */,
+				C7DD23D61FB0417D002DBDB7 /* HPWSonry */,
+				C7DD23EF1FB0417D002DBDB7 /* HPWWebImage */,
+				C7DD240D1FB0417D002DBDB7 /* LYAssetPhoto */,
+				C7DD24221FB0417D002DBDB7 /* LYComRefresh */,
+				C7DD244E1FB0417D002DBDB7 /* LYFileSelector */,
+				C7DD246B1FB0417D002DBDB7 /* LYTEmojiLabel */,
+				C7DD24791FB0417D002DBDB7 /* LYUIKitCategory */,
+			);
+			path = ThirdPartyFramework;
+			sourceTree = "<group>";
+		};
+		C7DD23CD1FB0417D002DBDB7 /* HPWProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD23CE1FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.h */,
+				C7DD23CF1FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.m */,
+				C7DD23D01FB0417D002DBDB7 /* HPWYSProgressAnimatedView.h */,
+				C7DD23D11FB0417D002DBDB7 /* HPWYSProgressAnimatedView.m */,
+				C7DD23D21FB0417D002DBDB7 /* HPWYSProgressHUD.h */,
+				C7DD23D31FB0417D002DBDB7 /* HPWYSProgressHUD.m */,
+				C7DD23D41FB0417D002DBDB7 /* HPWYSRadialGradientLayer.h */,
+				C7DD23D51FB0417D002DBDB7 /* HPWYSRadialGradientLayer.m */,
+			);
+			path = HPWProgressHUD;
+			sourceTree = "<group>";
+		};
+		C7DD23D61FB0417D002DBDB7 /* HPWSonry */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD23D71FB0417D002DBDB7 /* HPWYSCompositeConstraint.h */,
+				C7DD23D81FB0417D002DBDB7 /* HPWYSCompositeConstraint.m */,
+				C7DD23D91FB0417D002DBDB7 /* HPWYSConstraint+Private.h */,
+				C7DD23DA1FB0417D002DBDB7 /* HPWYSConstraint.h */,
+				C7DD23DB1FB0417D002DBDB7 /* HPWYSConstraint.m */,
+				C7DD23DC1FB0417D002DBDB7 /* HPWYSConstraintMaker.h */,
+				C7DD23DD1FB0417D002DBDB7 /* HPWYSConstraintMaker.m */,
+				C7DD23DE1FB0417D002DBDB7 /* HPWYSLayoutConstraint.h */,
+				C7DD23DF1FB0417D002DBDB7 /* HPWYSLayoutConstraint.m */,
+				C7DD23E01FB0417D002DBDB7 /* HPWYsonry.h */,
+				C7DD23E11FB0417D002DBDB7 /* HPWYSUtilities.h */,
+				C7DD23E21FB0417D002DBDB7 /* HPWYSViewAttribute.h */,
+				C7DD23E31FB0417D002DBDB7 /* HPWYSViewAttribute.m */,
+				C7DD23E41FB0417D002DBDB7 /* HPWYSViewConstraint.h */,
+				C7DD23E51FB0417D002DBDB7 /* HPWYSViewConstraint.m */,
+				C7DD23E61FB0417D002DBDB7 /* NSArray+HPWYSAdditions.h */,
+				C7DD23E71FB0417D002DBDB7 /* NSArray+HPWYSAdditions.m */,
+				C7DD23E81FB0417D002DBDB7 /* NSArray+HPWYSShorthandAdditions.h */,
+				C7DD23E91FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.h */,
+				C7DD23EA1FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.m */,
+				C7DD23EB1FB0417D002DBDB7 /* View+HPWYSAdditions.h */,
+				C7DD23EC1FB0417D002DBDB7 /* View+HPWYSAdditions.m */,
+				C7DD23ED1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.h */,
+				C7DD23EE1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.m */,
+			);
+			path = HPWSonry;
+			sourceTree = "<group>";
+		};
+		C7DD23EF1FB0417D002DBDB7 /* HPWWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD23F01FB0417D002DBDB7 /* HPWYSImageCache.h */,
+				C7DD23F11FB0417D002DBDB7 /* HPWYSImageCache.m */,
+				C7DD23F21FB0417D002DBDB7 /* HPWYSWebImageCompat.h */,
+				C7DD23F31FB0417D002DBDB7 /* HPWYSWebImageCompat.m */,
+				C7DD23F41FB0417D002DBDB7 /* HPWYSWebImageDecoder.h */,
+				C7DD23F51FB0417D002DBDB7 /* HPWYSWebImageDecoder.m */,
+				C7DD23F61FB0417D002DBDB7 /* HPWYSWebImageDownloader.h */,
+				C7DD23F71FB0417D002DBDB7 /* HPWYSWebImageDownloader.m */,
+				C7DD23F81FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.h */,
+				C7DD23F91FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.m */,
+				C7DD23FA1FB0417D002DBDB7 /* HPWYSWebImageManager.h */,
+				C7DD23FB1FB0417D002DBDB7 /* HPWYSWebImageManager.m */,
+				C7DD23FC1FB0417D002DBDB7 /* HPWYSWebImageOperation.h */,
+				C7DD23FD1FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.h */,
+				C7DD23FE1FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.m */,
+				C7DD23FF1FB0417D002DBDB7 /* NSData+HPWYSImageContentType.h */,
+				C7DD24001FB0417D002DBDB7 /* NSData+HPWYSImageContentType.m */,
+				C7DD24011FB0417D002DBDB7 /* UIButton+HPWYSWebCache.h */,
+				C7DD24021FB0417D002DBDB7 /* UIButton+HPWYSWebCache.m */,
+				C7DD24031FB0417D002DBDB7 /* UIImage+HPWYSGIF.h */,
+				C7DD24041FB0417D002DBDB7 /* UIImage+HPWYSGIF.m */,
+				C7DD24051FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.h */,
+				C7DD24061FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.m */,
+				C7DD24071FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.h */,
+				C7DD24081FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.m */,
+				C7DD24091FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.h */,
+				C7DD240A1FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.m */,
+				C7DD240B1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.h */,
+				C7DD240C1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.m */,
+			);
+			path = HPWWebImage;
+			sourceTree = "<group>";
+		};
+		C7DD240D1FB0417D002DBDB7 /* LYAssetPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD240E1FB0417D002DBDB7 /* LYAsset.h */,
+				C7DD240F1FB0417D002DBDB7 /* LYAsset.m */,
+				C7DD24101FB0417D002DBDB7 /* LYAssetCell.h */,
+				C7DD24111FB0417D002DBDB7 /* LYAssetCell.m */,
+				C7DD24121FB0417D002DBDB7 /* LYAssetGridCell.h */,
+				C7DD24131FB0417D002DBDB7 /* LYAssetGridCell.m */,
+				C7DD24141FB0417D002DBDB7 /* LYAssetGridToolBar.h */,
+				C7DD24151FB0417D002DBDB7 /* LYAssetGridToolBar.m */,
+				C7DD24161FB0417D002DBDB7 /* LYAssetGridViewController.h */,
+				C7DD24171FB0417D002DBDB7 /* LYAssetGridViewController.m */,
+				C7DD24181FB0417D002DBDB7 /* LYAssetViewController.h */,
+				C7DD24191FB0417D002DBDB7 /* LYAssetViewController.m */,
+				C7DD241A1FB0417D002DBDB7 /* LYPhotoBrowseCell.h */,
+				C7DD241B1FB0417D002DBDB7 /* LYPhotoBrowseCell.m */,
+				C7DD241C1FB0417D002DBDB7 /* LYPhotoBrowseView.h */,
+				C7DD241D1FB0417D002DBDB7 /* LYPhotoBrowseView.m */,
+				C7DD241E1FB0417D002DBDB7 /* LYTProgressView.h */,
+				C7DD241F1FB0417D002DBDB7 /* LYTProgressView.m */,
+				C7DD24201FB0417D002DBDB7 /* UIImageView+AssetImage.h */,
+				C7DD24211FB0417D002DBDB7 /* UIImageView+AssetImage.m */,
+			);
+			path = LYAssetPhoto;
+			sourceTree = "<group>";
+		};
+		C7DD24221FB0417D002DBDB7 /* LYComRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24231FB0417D002DBDB7 /* Base */,
+				C7DD242E1FB0417D002DBDB7 /* Custom */,
+				C7DD24451FB0417D002DBDB7 /* LYCOMRefresh.h */,
+				C7DD24461FB0417D002DBDB7 /* LYCOMRefreshConst.h */,
+				C7DD24471FB0417D002DBDB7 /* LYCOMRefreshConst.m */,
+				C7DD24481FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.h */,
+				C7DD24491FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.m */,
+				C7DD244A1FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.h */,
+				C7DD244B1FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.m */,
+				C7DD244C1FB0417D002DBDB7 /* UIView+LYCOMExtension.h */,
+				C7DD244D1FB0417D002DBDB7 /* UIView+LYCOMExtension.m */,
+			);
+			path = LYComRefresh;
+			sourceTree = "<group>";
+		};
+		C7DD24231FB0417D002DBDB7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24241FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.h */,
+				C7DD24251FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.m */,
+				C7DD24261FB0417D002DBDB7 /* LYCOMRefreshBackFooter.h */,
+				C7DD24271FB0417D002DBDB7 /* LYCOMRefreshBackFooter.m */,
+				C7DD24281FB0417D002DBDB7 /* LYCOMRefreshComponent.h */,
+				C7DD24291FB0417D002DBDB7 /* LYCOMRefreshComponent.m */,
+				C7DD242A1FB0417D002DBDB7 /* LYCOMRefreshFooter.h */,
+				C7DD242B1FB0417D002DBDB7 /* LYCOMRefreshFooter.m */,
+				C7DD242C1FB0417D002DBDB7 /* LYCOMRefreshHeader.h */,
+				C7DD242D1FB0417D002DBDB7 /* LYCOMRefreshHeader.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C7DD242E1FB0417D002DBDB7 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD242F1FB0417D002DBDB7 /* Footer */,
+				C7DD243E1FB0417D002DBDB7 /* Header */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		C7DD242F1FB0417D002DBDB7 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24301FB0417D002DBDB7 /* Auto */,
+				C7DD24371FB0417D002DBDB7 /* Back */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		C7DD24301FB0417D002DBDB7 /* Auto */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24311FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.h */,
+				C7DD24321FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.m */,
+				C7DD24331FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.h */,
+				C7DD24341FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.m */,
+				C7DD24351FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.h */,
+				C7DD24361FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.m */,
+			);
+			path = Auto;
+			sourceTree = "<group>";
+		};
+		C7DD24371FB0417D002DBDB7 /* Back */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24381FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.h */,
+				C7DD24391FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.m */,
+				C7DD243A1FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.h */,
+				C7DD243B1FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.m */,
+				C7DD243C1FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.h */,
+				C7DD243D1FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.m */,
+			);
+			path = Back;
+			sourceTree = "<group>";
+		};
+		C7DD243E1FB0417D002DBDB7 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD243F1FB0417D002DBDB7 /* LYCOMRefreshGifHeader.h */,
+				C7DD24401FB0417D002DBDB7 /* LYCOMRefreshGifHeader.m */,
+				C7DD24411FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.h */,
+				C7DD24421FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.m */,
+				C7DD24431FB0417D002DBDB7 /* LYCOMRefreshStateHeader.h */,
+				C7DD24441FB0417D002DBDB7 /* LYCOMRefreshStateHeader.m */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		C7DD244E1FB0417D002DBDB7 /* LYFileSelector */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD244F1FB0417D002DBDB7 /* Category */,
+				C7DD24561FB0417D002DBDB7 /* Model */,
+				C7DD24591FB0417D002DBDB7 /* VC */,
+				C7DD245E1FB0417D002DBDB7 /* View */,
+			);
+			path = LYFileSelector;
+			sourceTree = "<group>";
+		};
+		C7DD244F1FB0417D002DBDB7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24501FB0417D002DBDB7 /* NSFileManager+Tool.h */,
+				C7DD24511FB0417D002DBDB7 /* NSFileManager+Tool.m */,
+				C7DD24521FB0417D002DBDB7 /* NSString+Time.h */,
+				C7DD24531FB0417D002DBDB7 /* NSString+Time.m */,
+				C7DD24541FB0417D002DBDB7 /* UIImage+Bundle.h */,
+				C7DD24551FB0417D002DBDB7 /* UIImage+Bundle.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C7DD24561FB0417D002DBDB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24571FB0417D002DBDB7 /* LYFileObjModel.h */,
+				C7DD24581FB0417D002DBDB7 /* LYFileObjModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7DD24591FB0417D002DBDB7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD245A1FB0417D002DBDB7 /* LYFileManagerVC.h */,
+				C7DD245B1FB0417D002DBDB7 /* LYFileManagerVC.m */,
+				C7DD245C1FB0417D002DBDB7 /* LYFlieLookUpVC.h */,
+				C7DD245D1FB0417D002DBDB7 /* LYFlieLookUpVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		C7DD245E1FB0417D002DBDB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD245F1FB0417D002DBDB7 /* LYDownFileView.h */,
+				C7DD24601FB0417D002DBDB7 /* LYDownFileView.m */,
+				C7DD24611FB0417D002DBDB7 /* LYFileDepartmentView.h */,
+				C7DD24621FB0417D002DBDB7 /* LYFileDepartmentView.m */,
+				C7DD24631FB0417D002DBDB7 /* LYFileManagerToolBar.h */,
+				C7DD24641FB0417D002DBDB7 /* LYFileManagerToolBar.m */,
+				C7DD24651FB0417D002DBDB7 /* LYFileViewCell.h */,
+				C7DD24661FB0417D002DBDB7 /* LYFileViewCell.m */,
+				C7DD24671FB0417D002DBDB7 /* LYUnOpenFileView.h */,
+				C7DD24681FB0417D002DBDB7 /* LYUnOpenFileView.m */,
+				C7DD24691FB0417D002DBDB7 /* PrgressView.h */,
+				C7DD246A1FB0417D002DBDB7 /* PrgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7DD246B1FB0417D002DBDB7 /* LYTEmojiLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD246C1FB0417D002DBDB7 /* LYTAttributedLabel.h */,
+				C7DD246D1FB0417D002DBDB7 /* LYTAttributedLabel.m */,
+				C7DD246E1FB0417D002DBDB7 /* MLEmojiLabel.h */,
+				C7DD246F1FB0417D002DBDB7 /* MLEmojiLabel.m */,
+				C7DD24701FB0417D002DBDB7 /* MLExpress */,
+			);
+			path = LYTEmojiLabel;
+			sourceTree = "<group>";
+		};
+		C7DD24701FB0417D002DBDB7 /* MLExpress */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD24711FB0417D002DBDB7 /* MLExpressionManager.h */,
+				C7DD24721FB0417D002DBDB7 /* MLExpressionManager.m */,
+				C7DD24731FB0417D002DBDB7 /* MLTextAttachment.h */,
+				C7DD24741FB0417D002DBDB7 /* MLTextAttachment.m */,
+				C7DD24751FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.h */,
+				C7DD24761FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.m */,
+				C7DD24771FB0417D002DBDB7 /* NSString+MLExpression.h */,
+				C7DD24781FB0417D002DBDB7 /* NSString+MLExpression.m */,
+			);
+			path = MLExpress;
+			sourceTree = "<group>";
+		};
+		C7DD24791FB0417D002DBDB7 /* LYUIKitCategory */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD247A1FB0417D002DBDB7 /* LYT_UI_KIT_Category_Class.m */,
+				C7DD247B1FB0417D002DBDB7 /* LYTUIKitCategoryHeader.h */,
+				C7DD247C1FB0417D002DBDB7 /* NSString+TextSize.h */,
+				C7DD247D1FB0417D002DBDB7 /* NSString+TextSize.m */,
+				C7DD247E1FB0417D002DBDB7 /* UIColor+HexColor.h */,
+				C7DD247F1FB0417D002DBDB7 /* UIColor+HexColor.m */,
+				C7DD24801FB0417D002DBDB7 /* UIImage+Utility.h */,
+				C7DD24811FB0417D002DBDB7 /* UIImage+Utility.m */,
+				C7DD24821FB0417D002DBDB7 /* UIView+Frame.h */,
+				C7DD24831FB0417D002DBDB7 /* UIView+Frame.m */,
+				C7DD24841FB0417D002DBDB7 /* UIView+HPWYSToast.h */,
+				C7DD24851FB0417D002DBDB7 /* UIView+HPWYSToast.m */,
+				C7DD24861FB0417D002DBDB7 /* UIView+LYController.h */,
+				C7DD24871FB0417D002DBDB7 /* UIView+LYController.m */,
+				C7DD24881FB0417D002DBDB7 /* UIView+Present.h */,
+				C7DD24891FB0417D002DBDB7 /* UIView+Present.m */,
+			);
+			path = LYUIKitCategory;
+			sourceTree = "<group>";
+		};
+		C7ECFD021FB03E86003161AB = {
+			isa = PBXGroup;
+			children = (
+				C71FE32F1FB046BD00826FA4 /* Resources */,
+				C7ECFD0D1FB03E87003161AB /* LYLZDemo */,
+				C7ECFD571FB0402C003161AB /* LYLZSDK */,
+				C7ECFD0C1FB03E87003161AB /* Products */,
+				FD01EE5C4E2ED46BC147DC6D /* Pods */,
+				6392A3C64F335289A4F9AD2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7ECFD0C1FB03E87003161AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD0B1FB03E87003161AB /* LYLZDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7ECFD0D1FB03E87003161AB /* LYLZDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C71FE3381FB046F900826FA4 /* LYLZDemo.entitlements */,
+				C7ECFD3F1FB0401B003161AB /* Classes */,
+				C7ECFD381FB04011003161AB /* BaseViewController */,
+				C7ECFD341FB0400A003161AB /* CateGory */,
+				C7ECFD0E1FB03E87003161AB /* Supporting Files */,
+			);
+			path = LYLZDemo;
+			sourceTree = "<group>";
+		};
+		C7ECFD0E1FB03E87003161AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD251FB03FF7003161AB /* AppDelegate+LZJump.h */,
+				C7ECFD261FB03FF7003161AB /* AppDelegate+LZJump.m */,
+				C7ECFD271FB03FF7003161AB /* AppDelegate+LZXGPush.h */,
+				C7ECFD281FB03FF7003161AB /* AppDelegate+LZXGPush.m */,
+				C7ECFD291FB03FF7003161AB /* AppDelegate+SDKConfig.h */,
+				C7ECFD2A1FB03FF7003161AB /* AppDelegate+SDKConfig.m */,
+				C7ECFD2B1FB03FF7003161AB /* AppDelegate.h */,
+				C7ECFD2C1FB03FF7003161AB /* AppDelegate.m */,
+				C7ECFD2D1FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.h */,
+				C7ECFD2E1FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.m */,
+				C7ECFD1A1FB03E87003161AB /* Assets.xcassets */,
+				C7ECFD1F1FB03E87003161AB /* Info.plist */,
+				C7ECFD1C1FB03E87003161AB /* LaunchScreen.storyboard */,
+				C7ECFD0F1FB03E87003161AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7ECFD341FB0400A003161AB /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD351FB0400A003161AB /* UIImage+Image.h */,
+				C7ECFD361FB0400A003161AB /* UIImage+Image.m */,
+			);
+			path = CateGory;
+			sourceTree = "<group>";
+		};
+		C7ECFD381FB04011003161AB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD391FB04011003161AB /* LYNavigationController.h */,
+				C7ECFD3A1FB04011003161AB /* LYNavigationController.m */,
+				C7ECFD3B1FB04011003161AB /* LZTabbarController.h */,
+				C7ECFD3C1FB04011003161AB /* LZTabbarController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		C7ECFD3F1FB0401B003161AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD401FB0401B003161AB /* ChatList */,
+				C7ECFD431FB0401B003161AB /* Contacts */,
+				C7ECFD4B1FB0401B003161AB /* Login */,
+				C7ECFD4E1FB0401B003161AB /* Session */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C7ECFD401FB0401B003161AB /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD411FB0401B003161AB /* LZSessionListViewController.h */,
+				C7ECFD421FB0401B003161AB /* LZSessionListViewController.m */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		C7ECFD431FB0401B003161AB /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD441FB0401B003161AB /* LZContactViewController.h */,
+				C7ECFD451FB0401B003161AB /* LZContactViewController.m */,
+				C7ECFD461FB0401B003161AB /* model */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		C7ECFD461FB0401B003161AB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD471FB0401B003161AB /* LYLZConfigInfo.h */,
+				C7ECFD481FB0401B003161AB /* LYLZConfigInfo.m */,
+				C7ECFD491FB0401B003161AB /* LYLZUserInfo.h */,
+				C7ECFD4A1FB0401B003161AB /* LYLZUserInfo.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C7ECFD4B1FB0401B003161AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD4C1FB0401B003161AB /* LZLoginViewController.h */,
+				C7ECFD4D1FB0401B003161AB /* LZLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C7ECFD4E1FB0401B003161AB /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD4F1FB0401B003161AB /* LZChatViewController.h */,
+				C7ECFD501FB0401B003161AB /* LZChatViewController.m */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		C7ECFD571FB0402C003161AB /* LYLZSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C7DD23CC1FB0417D002DBDB7 /* ThirdPartyFramework */,
+				C7ECFD581FB0402C003161AB /* Category */,
+				C7ECFD671FB0402C003161AB /* LYLZChatManager */,
+				C7ECFD6D1FB0402C003161AB /* MVC */,
+				C7ECFDD01FB0402C003161AB /* Publick */,
+				C7ECFDD61FB0402C003161AB /* Tool */,
+			);
+			path = LYLZSDK;
+			sourceTree = "<group>";
+		};
+		C7ECFD581FB0402C003161AB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD591FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.h */,
+				C7ECFD5A1FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.m */,
+				C7ECFD5B1FB0402C003161AB /* NSArray+InvertedOrder.h */,
+				C7ECFD5C1FB0402C003161AB /* NSArray+InvertedOrder.m */,
+				C7ECFD5D1FB0402C003161AB /* NSData+Utility.h */,
+				C7ECFD5E1FB0402C003161AB /* NSData+Utility.m */,
+				C7ECFD5F1FB0402C003161AB /* NSString+LYMessageStr.h */,
+				C7ECFD601FB0402C003161AB /* NSString+LYMessageStr.m */,
+				C7ECFD611FB0402C003161AB /* NSString+TextSize.h */,
+				C7ECFD621FB0402C003161AB /* NSString+TextSize.m */,
+				C7ECFD631FB0402C003161AB /* UIColor+LYColor.h */,
+				C7ECFD641FB0402C003161AB /* UIColor+LYColor.m */,
+				C7ECFD651FB0402C003161AB /* UIImage+BundleImage.h */,
+				C7ECFD661FB0402C003161AB /* UIImage+BundleImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C7ECFD671FB0402C003161AB /* LYLZChatManager */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD681FB0402C003161AB /* LYLZChatManager+Private.h */,
+				C7ECFD691FB0402C003161AB /* LYLZChatManager.h */,
+				C7ECFD6A1FB0402C003161AB /* LYLZChatManager.m */,
+				C7ECFD6B1FB0402C003161AB /* LYLZSDK.h */,
+				C7ECFD6C1FB0402C003161AB /* LYLZSDK.m */,
+			);
+			path = LYLZChatManager;
+			sourceTree = "<group>";
+		};
+		C7ECFD6D1FB0402C003161AB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD6E1FB0402C003161AB /* Controller */,
+				C7ECFD7A1FB0402C003161AB /* LYTChatView */,
+				C7ECFD9E1FB0402C003161AB /* Model */,
+				C7ECFDA91FB0402C003161AB /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		C7ECFD6E1FB0402C003161AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD6F1FB0402C003161AB /* HistoryChatListViewController.h */,
+				C7ECFD701FB0402C003161AB /* HistoryChatListViewController.m */,
+				C7ECFD711FB0402C003161AB /* LYLZSendRedpackageVc.h */,
+				C7ECFD721FB0402C003161AB /* LYLZSendRedpackageVc.m */,
+				C7ECFD731FB0402C003161AB /* LYLZSystemMessageViewController.h */,
+				C7ECFD741FB0402C003161AB /* LYLZSystemMessageViewController.m */,
+				C7ECFD751FB0402C003161AB /* LYTChatViewController+PrivateAPI.h */,
+				C7ECFD761FB0402C003161AB /* LYTChatViewController.h */,
+				C7ECFD771FB0402C003161AB /* LYTChatViewController.m */,
+				C7ECFD781FB0402C003161AB /* LYTLZChatViewController.h */,
+				C7ECFD791FB0402C003161AB /* LYTLZChatViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7ECFD7A1FB0402C003161AB /* LYTChatView */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD7B1FB0402C003161AB /* InputToolBar */,
+				C7ECFD911FB0402C003161AB /* MessagTipView */,
+				C7ECFD941FB0402C003161AB /* TimeCell */,
+				C7ECFD9B1FB0402C003161AB /* VoiceBubble */,
+			);
+			path = LYTChatView;
+			sourceTree = "<group>";
+		};
+		C7ECFD7B1FB0402C003161AB /* InputToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD7C1FB0402C003161AB /* LYAddOperationButton.h */,
+				C7ECFD7D1FB0402C003161AB /* LYAddOperationButton.m */,
+				C7ECFD7E1FB0402C003161AB /* LYEmojiDic.h */,
+				C7ECFD7F1FB0402C003161AB /* LYEmotion.h */,
+				C7ECFD801FB0402C003161AB /* LYEmotion.m */,
+				C7ECFD811FB0402C003161AB /* LYEmotionInputView.h */,
+				C7ECFD821FB0402C003161AB /* LYEmotionInputView.m */,
+				C7ECFD831FB0402C003161AB /* LYInputAudioRecordIndicatorView.h */,
+				C7ECFD841FB0402C003161AB /* LYInputAudioRecordIndicatorView.m */,
+				C7ECFD851FB0402C003161AB /* LYInputEmotionViewCell.h */,
+				C7ECFD861FB0402C003161AB /* LYInputEmotionViewCell.m */,
+				C7ECFD871FB0402C003161AB /* LYInputToolBar.h */,
+				C7ECFD881FB0402C003161AB /* LYInputToolBar.m */,
+				C7ECFD891FB0402C003161AB /* LYMoreInputView.h */,
+				C7ECFD8A1FB0402C003161AB /* LYMoreInputView.m */,
+				C7ECFD8B1FB0402C003161AB /* LYRecordHUD.h */,
+				C7ECFD8C1FB0402C003161AB /* LYRecordHUD.m */,
+				C7ECFD8D1FB0402C003161AB /* LYTextAttachment.h */,
+				C7ECFD8E1FB0402C003161AB /* LYTextAttachment.m */,
+				C7ECFD8F1FB0402C003161AB /* LYTextView.h */,
+				C7ECFD901FB0402C003161AB /* LYTextView.m */,
+			);
+			path = InputToolBar;
+			sourceTree = "<group>";
+		};
+		C7ECFD911FB0402C003161AB /* MessagTipView */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD921FB0402C003161AB /* LYTMessageTipView.h */,
+				C7ECFD931FB0402C003161AB /* LYTMessageTipView.m */,
+			);
+			path = MessagTipView;
+			sourceTree = "<group>";
+		};
+		C7ECFD941FB0402C003161AB /* TimeCell */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD951FB0402C003161AB /* LYSessionTimeBannerCell.h */,
+				C7ECFD961FB0402C003161AB /* LYSessionTimeBannerCell.m */,
+				C7ECFD971FB0402C003161AB /* LYTDemoTipsModel.h */,
+				C7ECFD981FB0402C003161AB /* LYTDemoTipsModel.m */,
+				C7ECFD991FB0402C003161AB /* LYTimeBannerModel.h */,
+				C7ECFD9A1FB0402C003161AB /* LYTimeBannerModel.m */,
+			);
+			path = TimeCell;
+			sourceTree = "<group>";
+		};
+		C7ECFD9B1FB0402C003161AB /* VoiceBubble */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD9C1FB0402C003161AB /* TYHVoiceBubble.h */,
+				C7ECFD9D1FB0402C003161AB /* TYHVoiceBubble.m */,
+			);
+			path = VoiceBubble;
+			sourceTree = "<group>";
+		};
+		C7ECFD9E1FB0402C003161AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFD9F1FB0402C003161AB /* LYLZmessageBody.h */,
+				C7ECFDA01FB0402C003161AB /* LYLZmessageBody.m */,
+				C7ECFDA11FB0402C003161AB /* LYLZOrderMessageBody.h */,
+				C7ECFDA21FB0402C003161AB /* LYLZOrderMessageBody.m */,
+				C7ECFDA31FB0402C003161AB /* LYLZRedPacketMessageBody.h */,
+				C7ECFDA41FB0402C003161AB /* LYLZRedPacketMessageBody.m */,
+				C7ECFDA51FB0402C003161AB /* LYLZSessionList.h */,
+				C7ECFDA61FB0402C003161AB /* LYLZSessionList.m */,
+				C7ECFDA71FB0402C003161AB /* LYTChatMessageCellFrame.h */,
+				C7ECFDA81FB0402C003161AB /* LYTChatMessageCellFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7ECFDA91FB0402C003161AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDAA1FB0402C003161AB /* Chatcell */,
+				C7ECFDBB1FB0402C003161AB /* inputView */,
+				C7ECFDBE1FB0402C003161AB /* SessionListView */,
+				C7ECFDC51FB0402C003161AB /* SystemCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7ECFDAA1FB0402C003161AB /* Chatcell */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDAB1FB0402C003161AB /* LYTChatContentView.h */,
+				C7ECFDAC1FB0402C003161AB /* LYTChatContentView.m */,
+				C7ECFDAD1FB0402C003161AB /* LYTChatFileContentView.h */,
+				C7ECFDAE1FB0402C003161AB /* LYTChatFileContentView.m */,
+				C7ECFDAF1FB0402C003161AB /* LYTChatImageContentView.h */,
+				C7ECFDB01FB0402C003161AB /* LYTChatImageContentView.m */,
+				C7ECFDB11FB0402C003161AB /* LYTChatImageView.h */,
+				C7ECFDB21FB0402C003161AB /* LYTChatImageView.m */,
+				C7ECFDB31FB0402C003161AB /* LYTChatMessageCell.h */,
+				C7ECFDB41FB0402C003161AB /* LYTChatMessageCell.m */,
+				C7ECFDB51FB0402C003161AB /* LYTChatMessageContentView.h */,
+				C7ECFDB61FB0402C003161AB /* LYTChatMessageContentView.m */,
+				C7ECFDB71FB0402C003161AB /* LYTChatTextContentView.h */,
+				C7ECFDB81FB0402C003161AB /* LYTChatTextContentView.m */,
+				C7ECFDB91FB0402C003161AB /* LYTChatVoiceContentView.h */,
+				C7ECFDBA1FB0402C003161AB /* LYTChatVoiceContentView.m */,
+			);
+			path = Chatcell;
+			sourceTree = "<group>";
+		};
+		C7ECFDBB1FB0402C003161AB /* inputView */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDBC1FB0402C003161AB /* LYLZInputToolBar.h */,
+				C7ECFDBD1FB0402C003161AB /* LYLZInputToolBar.m */,
+			);
+			path = inputView;
+			sourceTree = "<group>";
+		};
+		C7ECFDBE1FB0402C003161AB /* SessionListView */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDBF1FB0402C003161AB /* LYLZChatListView.h */,
+				C7ECFDC01FB0402C003161AB /* LYLZChatListView.m */,
+				C7ECFDC11FB0402C003161AB /* LYLZMessageListCell.h */,
+				C7ECFDC21FB0402C003161AB /* LYLZMessageListCell.m */,
+				C7ECFDC31FB0402C003161AB /* LYTMessageListCell.h */,
+				C7ECFDC41FB0402C003161AB /* LYTMessageListCell.m */,
+			);
+			path = SessionListView;
+			sourceTree = "<group>";
+		};
+		C7ECFDC51FB0402C003161AB /* SystemCell */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDC61FB0402C003161AB /* LYSingleTouchButton.h */,
+				C7ECFDC71FB0402C003161AB /* LYSingleTouchButton.m */,
+				C7ECFDC81FB0402C003161AB /* LZChatMessageOrderCell.h */,
+				C7ECFDC91FB0402C003161AB /* LZChatMessageOrderCell.m */,
+				C7ECFDCA1FB0402C003161AB /* LZChatMessageRecPacketCell.h */,
+				C7ECFDCB1FB0402C003161AB /* LZChatMessageRecPacketCell.m */,
+				C7ECFDCC1FB0402C003161AB /* LZSystemMessageTableViewCell.h */,
+				C7ECFDCD1FB0402C003161AB /* LZSystemMessageTableViewCell.m */,
+				C7ECFDCE1FB0402C003161AB /* LZSystemNotiCell.h */,
+				C7ECFDCF1FB0402C003161AB /* LZSystemNotiCell.m */,
+			);
+			path = SystemCell;
+			sourceTree = "<group>";
+		};
+		C7ECFDD01FB0402C003161AB /* Publick */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDD11FB0402C003161AB /* LYTCommonConfig.h */,
+				C7ECFDD21FB0402C003161AB /* LYTCommonConfig.m */,
+				C7ECFDD31FB0402C003161AB /* LYTCommonHeader.h */,
+				C7ECFDD41FB0402C003161AB /* LYTFileImageSelectorNav.h */,
+				C7ECFDD51FB0402C003161AB /* LYTFileImageSelectorNav.m */,
+			);
+			path = Publick;
+			sourceTree = "<group>";
+		};
+		C7ECFDD61FB0402C003161AB /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDD71FB0402C003161AB /* AudioPlayer */,
+				C7ECFDE61FB0402C003161AB /* AvailableClass */,
+				C7ECFDE91FB0402C003161AB /* LibMp3Lame */,
+				C7ECFDEC1FB0402C003161AB /* LYDateHandleTool.h */,
+				C7ECFDED1FB0402C003161AB /* LYDateHandleTool.m */,
+				C7ECFDEE1FB0402C003161AB /* RefreshView */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		C7ECFDD71FB0402C003161AB /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDD81FB0402C003161AB /* LYAudioPlayerHelper.h */,
+				C7ECFDD91FB0402C003161AB /* LYAudioPlayerHelper.m */,
+				C7ECFDDA1FB0402C003161AB /* LYAudioPlayerUtil.h */,
+				C7ECFDDB1FB0402C003161AB /* LYAudioPlayerUtil.m */,
+				C7ECFDDC1FB0402C003161AB /* LYAudioPlayTool.h */,
+				C7ECFDDD1FB0402C003161AB /* LYAudioPlayTool.m */,
+				C7ECFDDE1FB0402C003161AB /* LYAudioRecorderUtil.h */,
+				C7ECFDDF1FB0402C003161AB /* LYAudioRecorderUtil.m */,
+				C7ECFDE01FB0402C003161AB /* LYCDDeviceManager.h */,
+				C7ECFDE11FB0402C003161AB /* LYCDDeviceManager.m */,
+				C7ECFDE21FB0402C003161AB /* LYTRecievMsgAudio.h */,
+				C7ECFDE31FB0402C003161AB /* LYTRecievMsgAudio.m */,
+				C7ECFDE41FB0402C003161AB /* LYTVoiceCacheTool.h */,
+				C7ECFDE51FB0402C003161AB /* LYTVoiceCacheTool.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		C7ECFDE61FB0402C003161AB /* AvailableClass */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDE71FB0402C003161AB /* TYHPrivacyPermissionsManager.h */,
+				C7ECFDE81FB0402C003161AB /* TYHPrivacyPermissionsManager.m */,
+			);
+			path = AvailableClass;
+			sourceTree = "<group>";
+		};
+		C7ECFDE91FB0402C003161AB /* LibMp3Lame */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDEA1FB0402C003161AB /* lame.h */,
+				C7ECFDEB1FB0402C003161AB /* libmp3lame.a */,
+			);
+			path = LibMp3Lame;
+			sourceTree = "<group>";
+		};
+		C7ECFDEE1FB0402C003161AB /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECFDEF1FB0402C003161AB /* LYRefreshHeader.h */,
+				C7ECFDF01FB0402C003161AB /* LYRefreshHeader.m */,
+			);
+			path = RefreshView;
+			sourceTree = "<group>";
+		};
+		FD01EE5C4E2ED46BC147DC6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2054199EF312F0A36E3753DB /* Pods-LYLZDemo.debug.xcconfig */,
+				85BC717AC13AFEE737B440B7 /* Pods-LYLZDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7ECFD0A1FB03E87003161AB /* LYLZDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7ECFD221FB03E87003161AB /* Build configuration list for PBXNativeTarget "LYLZDemo" */;
+			buildPhases = (
+				6A614D9A5BC1CBCF23924238 /* [CP] Check Pods Manifest.lock */,
+				C7ECFD071FB03E87003161AB /* Sources */,
+				C7ECFD081FB03E87003161AB /* Frameworks */,
+				C7ECFD091FB03E87003161AB /* Resources */,
+				0BB333D444F4970C10850612 /* [CP] Embed Pods Frameworks */,
+				23564FBBDB0272B14A4E4303 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYLZDemo;
+			productName = LYLZDemo;
+			productReference = C7ECFD0B1FB03E87003161AB /* LYLZDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7ECFD031FB03E86003161AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hhly;
+				TargetAttributes = {
+					C7ECFD0A1FB03E87003161AB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G7F7GRCFUG;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C7ECFD061FB03E86003161AB /* Build configuration list for PBXProject "LYLZDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7ECFD021FB03E86003161AB;
+			productRefGroup = C7ECFD0C1FB03E87003161AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7ECFD0A1FB03E87003161AB /* LYLZDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7ECFD091FB03E87003161AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7ECFD1E1FB03E87003161AB /* LaunchScreen.storyboard in Resources */,
+				C71FE3341FB046BD00826FA4 /* ClippedExpression.bundle in Resources */,
+				C71FE33A1FB04E8500826FA4 /* LYFileSelector.bundle in Resources */,
+				C7ECFD1B1FB03E87003161AB /* Assets.xcassets in Resources */,
+				C71FE33C1FB04E8C00826FA4 /* LYTChatProgressHUD.bundle in Resources */,
+				C71FE3371FB046BD00826FA4 /* LYTchatViewIcon.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BB333D444F4970C10850612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYLZDemo/Pods-LYLZDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23564FBBDB0272B14A4E4303 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYLZDemo/Pods-LYLZDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A614D9A5BC1CBCF23924238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYLZDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7ECFD071FB03E87003161AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DD24B11FB0417D002DBDB7 /* HPWYSWebImageCompat.m in Sources */,
+				C7ECFDFB1FB0402C003161AB /* LYLZSendRedpackageVc.m in Sources */,
+				C7DD24CE1FB0417D002DBDB7 /* LYCOMRefreshAutoNormalFooter.m in Sources */,
+				C7DD24B21FB0417D002DBDB7 /* HPWYSWebImageDecoder.m in Sources */,
+				C7DD24DB1FB0417D002DBDB7 /* NSString+Time.m in Sources */,
+				C7ECFD2F1FB03FF7003161AB /* AppDelegate+LZJump.m in Sources */,
+				C7DD24AF1FB0417D002DBDB7 /* ViewController+HPWYSAdditions.m in Sources */,
+				C7DD24E51FB0417D002DBDB7 /* PrgressView.m in Sources */,
+				C7ECFE131FB0402C003161AB /* LYTChatContentView.m in Sources */,
+				C7DD24C91FB0417D002DBDB7 /* LYCOMRefreshBackFooter.m in Sources */,
+				C7ECFE2C1FB0402C003161AB /* LYTVoiceCacheTool.m in Sources */,
+				C7DD24DC1FB0417D002DBDB7 /* UIImage+Bundle.m in Sources */,
+				C7DD24E31FB0417D002DBDB7 /* LYFileViewCell.m in Sources */,
+				C7ECFE0D1FB0402C003161AB /* TYHVoiceBubble.m in Sources */,
+				C7ECFE261FB0402C003161AB /* LYAudioPlayerHelper.m in Sources */,
+				C7ECFE041FB0402C003161AB /* LYInputToolBar.m in Sources */,
+				C7DD24AC1FB0417D002DBDB7 /* NSArray+HPWYSAdditions.m in Sources */,
+				C7ECFDFF1FB0402C003161AB /* LYAddOperationButton.m in Sources */,
+				C7ECFE0F1FB0402C003161AB /* LYLZOrderMessageBody.m in Sources */,
+				C7DD24C71FB0417D002DBDB7 /* UIImageView+AssetImage.m in Sources */,
+				C7DD24CD1FB0417D002DBDB7 /* LYCOMRefreshAutoGifFooter.m in Sources */,
+				C7ECFE081FB0402C003161AB /* LYTextView.m in Sources */,
+				C7ECFE1F1FB0402C003161AB /* LYSingleTouchButton.m in Sources */,
+				C7DD24ED1FB0417D002DBDB7 /* NSString+TextSize.m in Sources */,
+				C7ECFDFA1FB0402C003161AB /* HistoryChatListViewController.m in Sources */,
+				C7ECFDF71FB0402C003161AB /* UIImage+BundleImage.m in Sources */,
+				C7ECFE151FB0402C003161AB /* LYTChatImageContentView.m in Sources */,
+				C7ECFE071FB0402C003161AB /* LYTextAttachment.m in Sources */,
+				C7DD24F21FB0417D002DBDB7 /* UIView+LYController.m in Sources */,
+				C7ECFE001FB0402C003161AB /* LYEmotion.m in Sources */,
+				C7DD24CF1FB0417D002DBDB7 /* LYCOMRefreshAutoStateFooter.m in Sources */,
+				C7DD24C81FB0417D002DBDB7 /* LYCOMRefreshAutoFooter.m in Sources */,
+				C7DD24A91FB0417D002DBDB7 /* HPWYSLayoutConstraint.m in Sources */,
+				C7DD24B81FB0417D002DBDB7 /* UIButton+HPWYSWebCache.m in Sources */,
+				C7DD24C51FB0417D002DBDB7 /* LYPhotoBrowseView.m in Sources */,
+				C7ECFDF11FB0402C003161AB /* LYTMessageBody+LYPhotoBrowsePotoProtocol.m in Sources */,
+				C7DD24C61FB0417D002DBDB7 /* LYTProgressView.m in Sources */,
+				C7ECFD311FB03FF7003161AB /* AppDelegate+SDKConfig.m in Sources */,
+				C7DD24D61FB0417D002DBDB7 /* LYCOMRefreshConst.m in Sources */,
+				C7DD24CC1FB0417D002DBDB7 /* LYCOMRefreshHeader.m in Sources */,
+				C7ECFE191FB0402C003161AB /* LYTChatTextContentView.m in Sources */,
+				C7DD24B61FB0417D002DBDB7 /* HPWYSWebImagePrefetcher.m in Sources */,
+				C7DD24BD1FB0417D002DBDB7 /* UIView+HPWYSWebCacheOperation.m in Sources */,
+				C7ECFDFD1FB0402C003161AB /* LYTChatViewController.m in Sources */,
+				C7ECFD561FB0401B003161AB /* LZChatViewController.m in Sources */,
+				C7ECFE1A1FB0402C003161AB /* LYTChatVoiceContentView.m in Sources */,
+				C7ECFE211FB0402C003161AB /* LZChatMessageRecPacketCell.m in Sources */,
+				C7DD24C21FB0417D002DBDB7 /* LYAssetGridViewController.m in Sources */,
+				C7ECFDF61FB0402C003161AB /* UIColor+LYColor.m in Sources */,
+				C7ECFDF21FB0402C003161AB /* NSArray+InvertedOrder.m in Sources */,
+				C7ECFE161FB0402C003161AB /* LYTChatImageView.m in Sources */,
+				C7DD24F01FB0417D002DBDB7 /* UIView+Frame.m in Sources */,
+				C7DD24EA1FB0417D002DBDB7 /* NSAttributedString+TYHEmojiExpression.m in Sources */,
+				C7ECFDF51FB0402C003161AB /* NSString+TextSize.m in Sources */,
+				C7ECFD331FB03FF7003161AB /* AppDelegate+LYLZChatDelegate.m in Sources */,
+				C7ECFE251FB0402C003161AB /* LYTFileImageSelectorNav.m in Sources */,
+				C7DD24D71FB0417D002DBDB7 /* UIScrollView+LYCOMExtension.m in Sources */,
+				C7DD24DF1FB0417D002DBDB7 /* LYFlieLookUpVC.m in Sources */,
+				C7DD24A81FB0417D002DBDB7 /* HPWYSConstraintMaker.m in Sources */,
+				C7DD24A61FB0417D002DBDB7 /* HPWYSCompositeConstraint.m in Sources */,
+				C7DD24D91FB0417D002DBDB7 /* UIView+LYCOMExtension.m in Sources */,
+				C7DD24D21FB0417D002DBDB7 /* LYCOMRefreshBackStateFooter.m in Sources */,
+				C7ECFE031FB0402C003161AB /* LYInputEmotionViewCell.m in Sources */,
+				C7DD24AE1FB0417D002DBDB7 /* View+HPWYSAdditions.m in Sources */,
+				C7ECFDF91FB0402C003161AB /* LYLZSDK.m in Sources */,
+				C7DD24D41FB0417D002DBDB7 /* LYCOMRefreshNormalHeader.m in Sources */,
+				C7ECFDF41FB0402C003161AB /* NSString+LYMessageStr.m in Sources */,
+				C7DD24A41FB0417D002DBDB7 /* HPWYSProgressHUD.m in Sources */,
+				C7ECFD101FB03E87003161AB /* main.m in Sources */,
+				C7DD24D11FB0417D002DBDB7 /* LYCOMRefreshBackNormalFooter.m in Sources */,
+				C7DD24AA1FB0417D002DBDB7 /* HPWYSViewAttribute.m in Sources */,
+				C7DD24E21FB0417D002DBDB7 /* LYFileManagerToolBar.m in Sources */,
+				C7DD24E81FB0417D002DBDB7 /* MLExpressionManager.m in Sources */,
+				C7ECFE111FB0402C003161AB /* LYLZSessionList.m in Sources */,
+				C7ECFE1C1FB0402C003161AB /* LYLZChatListView.m in Sources */,
+				C7DD24AD1FB0417D002DBDB7 /* NSLayoutConstraint+HPWYSDebugAdditions.m in Sources */,
+				C7DD24A51FB0417D002DBDB7 /* HPWYSRadialGradientLayer.m in Sources */,
+				C7DD24E61FB0417D002DBDB7 /* LYTAttributedLabel.m in Sources */,
+				C7DD24DD1FB0417D002DBDB7 /* LYFileObjModel.m in Sources */,
+				C7ECFD3D1FB04011003161AB /* LYNavigationController.m in Sources */,
+				C7DD24F31FB0417D002DBDB7 /* UIView+Present.m in Sources */,
+				C7DD24CB1FB0417D002DBDB7 /* LYCOMRefreshFooter.m in Sources */,
+				C7ECFD521FB0401B003161AB /* LZContactViewController.m in Sources */,
+				C7DD24A71FB0417D002DBDB7 /* HPWYSConstraint.m in Sources */,
+				C7DD24C11FB0417D002DBDB7 /* LYAssetGridToolBar.m in Sources */,
+				C7ECFE171FB0402C003161AB /* LYTChatMessageCell.m in Sources */,
+				C7ECFDFC1FB0402C003161AB /* LYLZSystemMessageViewController.m in Sources */,
+				C7DD24DE1FB0417D002DBDB7 /* LYFileManagerVC.m in Sources */,
+				C7ECFD371FB0400A003161AB /* UIImage+Image.m in Sources */,
+				C7ECFD3E1FB04011003161AB /* LZTabbarController.m in Sources */,
+				C7ECFE101FB0402C003161AB /* LYLZRedPacketMessageBody.m in Sources */,
+				C7ECFDF81FB0402C003161AB /* LYLZChatManager.m in Sources */,
+				C7DD24DA1FB0417D002DBDB7 /* NSFileManager+Tool.m in Sources */,
+				C7ECFE2D1FB0402C003161AB /* TYHPrivacyPermissionsManager.m in Sources */,
+				C7ECFE281FB0402C003161AB /* LYAudioPlayTool.m in Sources */,
+				C7ECFE291FB0402C003161AB /* LYAudioRecorderUtil.m in Sources */,
+				C7DD24A21FB0417D002DBDB7 /* HPWYSIndefiniteAnimatedView.m in Sources */,
+				C7DD24CA1FB0417D002DBDB7 /* LYCOMRefreshComponent.m in Sources */,
+				C7ECFE2B1FB0402C003161AB /* LYTRecievMsgAudio.m in Sources */,
+				C7ECFE2F1FB0402C003161AB /* LYDateHandleTool.m in Sources */,
+				C7ECFE0C1FB0402C003161AB /* LYTimeBannerModel.m in Sources */,
+				C7DD24B31FB0417D002DBDB7 /* HPWYSWebImageDownloader.m in Sources */,
+				C7DD24D51FB0417D002DBDB7 /* LYCOMRefreshStateHeader.m in Sources */,
+				C7ECFD551FB0401B003161AB /* LZLoginViewController.m in Sources */,
+				C7DD24D81FB0417D002DBDB7 /* UIScrollView+LYCOMRefresh.m in Sources */,
+				C7ECFE091FB0402C003161AB /* LYTMessageTipView.m in Sources */,
+				C7DD24EB1FB0417D002DBDB7 /* NSString+MLExpression.m in Sources */,
+				C7DD24A31FB0417D002DBDB7 /* HPWYSProgressAnimatedView.m in Sources */,
+				C7DD24E91FB0417D002DBDB7 /* MLTextAttachment.m in Sources */,
+				C7ECFE0A1FB0402C003161AB /* LYSessionTimeBannerCell.m in Sources */,
+				C7DD24E71FB0417D002DBDB7 /* MLEmojiLabel.m in Sources */,
+				C7ECFD531FB0401B003161AB /* LYLZConfigInfo.m in Sources */,
+				C7DD24B71FB0417D002DBDB7 /* NSData+HPWYSImageContentType.m in Sources */,
+				C7ECFE241FB0402C003161AB /* LYTCommonConfig.m in Sources */,
+				C7DD24BE1FB0417D002DBDB7 /* LYAsset.m in Sources */,
+				C7DD24EF1FB0417D002DBDB7 /* UIImage+Utility.m in Sources */,
+				C7ECFE021FB0402C003161AB /* LYInputAudioRecordIndicatorView.m in Sources */,
+				C7ECFE1D1FB0402C003161AB /* LYLZMessageListCell.m in Sources */,
+				C7DD24BC1FB0417D002DBDB7 /* UIImageView+HPWYSWebCache.m in Sources */,
+				C7ECFE271FB0402C003161AB /* LYAudioPlayerUtil.m in Sources */,
+				C7ECFE141FB0402C003161AB /* LYTChatFileContentView.m in Sources */,
+				C7DD24E41FB0417D002DBDB7 /* LYUnOpenFileView.m in Sources */,
+				C7DD24E11FB0417D002DBDB7 /* LYFileDepartmentView.m in Sources */,
+				C7ECFE0E1FB0402C003161AB /* LYLZmessageBody.m in Sources */,
+				C7DD24BF1FB0417D002DBDB7 /* LYAssetCell.m in Sources */,
+				C7DD24BB1FB0417D002DBDB7 /* UIImageView+HPWYSHighlightedWebCache.m in Sources */,
+				C7DD24B01FB0417D002DBDB7 /* HPWYSImageCache.m in Sources */,
+				C7ECFDF31FB0402C003161AB /* NSData+Utility.m in Sources */,
+				C7DD24D31FB0417D002DBDB7 /* LYCOMRefreshGifHeader.m in Sources */,
+				C7ECFE011FB0402C003161AB /* LYEmotionInputView.m in Sources */,
+				C7ECFE301FB0402C003161AB /* LYRefreshHeader.m in Sources */,
+				C7ECFE1B1FB0402C003161AB /* LYLZInputToolBar.m in Sources */,
+				C7ECFE181FB0402C003161AB /* LYTChatMessageContentView.m in Sources */,
+				C7DD24E01FB0417D002DBDB7 /* LYDownFileView.m in Sources */,
+				C7ECFDFE1FB0402C003161AB /* LYTLZChatViewController.m in Sources */,
+				C7DD24B41FB0417D002DBDB7 /* HPWYSWebImageDownloaderOperation.m in Sources */,
+				C7ECFE051FB0402C003161AB /* LYMoreInputView.m in Sources */,
+				C7DD24C01FB0417D002DBDB7 /* LYAssetGridCell.m in Sources */,
+				C7DD24D01FB0417D002DBDB7 /* LYCOMRefreshBackGifFooter.m in Sources */,
+				C7ECFE2A1FB0402C003161AB /* LYCDDeviceManager.m in Sources */,
+				C7ECFD511FB0401B003161AB /* LZSessionListViewController.m in Sources */,
+				C7ECFE231FB0402C003161AB /* LZSystemNotiCell.m in Sources */,
+				C7DD24F11FB0417D002DBDB7 /* UIView+HPWYSToast.m in Sources */,
+				C7DD24B91FB0417D002DBDB7 /* UIImage+HPWYSGIF.m in Sources */,
+				C7ECFE1E1FB0402C003161AB /* LYTMessageListCell.m in Sources */,
+				C7ECFD301FB03FF7003161AB /* AppDelegate+LZXGPush.m in Sources */,
+				C7ECFE0B1FB0402C003161AB /* LYTDemoTipsModel.m in Sources */,
+				C7DD24C31FB0417D002DBDB7 /* LYAssetViewController.m in Sources */,
+				C7ECFE121FB0402C003161AB /* LYTChatMessageCellFrame.m in Sources */,
+				C7ECFD541FB0401B003161AB /* LYLZUserInfo.m in Sources */,
+				C7DD24AB1FB0417D002DBDB7 /* HPWYSViewConstraint.m in Sources */,
+				C7ECFE061FB0402C003161AB /* LYRecordHUD.m in Sources */,
+				C7DD24B51FB0417D002DBDB7 /* HPWYSWebImageManager.m in Sources */,
+				C7ECFE221FB0402C003161AB /* LZSystemMessageTableViewCell.m in Sources */,
+				C7DD24BA1FB0417D002DBDB7 /* UIImage+HPWYSMultiFormat.m in Sources */,
+				C7ECFE201FB0402C003161AB /* LZChatMessageOrderCell.m in Sources */,
+				C7DD24EC1FB0417D002DBDB7 /* LYT_UI_KIT_Category_Class.m in Sources */,
+				C7DD24EE1FB0417D002DBDB7 /* UIColor+HexColor.m in Sources */,
+				C7ECFD321FB03FF7003161AB /* AppDelegate.m in Sources */,
+				C7DD24C41FB0417D002DBDB7 /* LYPhotoBrowseCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7ECFD1C1FB03E87003161AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7ECFD1D1FB03E87003161AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7ECFD201FB03E87003161AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7ECFD211FB03E87003161AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7ECFD231FB03E87003161AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2054199EF312F0A36E3753DB /* Pods-LYLZDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LYLZDemo/LYLZDemo.entitlements;
+				DEVELOPMENT_TEAM = G7F7GRCFUG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LYLZDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LYLZSDK/Tool/LibMp3Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhly.LYLZDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7ECFD241FB03E87003161AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BC717AC13AFEE737B440B7 /* Pods-LYLZDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LYLZDemo/LYLZDemo.entitlements;
+				DEVELOPMENT_TEAM = G7F7GRCFUG;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = LYLZDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LYLZSDK/Tool/LibMp3Lame",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhly.LYLZDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7ECFD061FB03E86003161AB /* Build configuration list for PBXProject "LYLZDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ECFD201FB03E87003161AB /* Debug */,
+				C7ECFD211FB03E87003161AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7ECFD221FB03E87003161AB /* Build configuration list for PBXNativeTarget "LYLZDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7ECFD231FB03E87003161AB /* Debug */,
+				C7ECFD241FB03E87003161AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7ECFD031FB03E86003161AB /* Project object */;
+}
